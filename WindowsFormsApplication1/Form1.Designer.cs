@@ -723,6 +723,7 @@
             this.buttonLuminairesCalculate.TabIndex = 28;
             this.buttonLuminairesCalculate.Text = "Calculate";
             this.buttonLuminairesCalculate.UseVisualStyleBackColor = true;
+            this.buttonLuminairesCalculate.Click += new System.EventHandler(this.buttonLuminairesCalculate_Click);
             // 
             // label7
             // 
@@ -1306,6 +1307,7 @@
             this.textLuminairesOutput.Name = "textLuminairesOutput";
             this.textLuminairesOutput.Size = new System.Drawing.Size(100, 20);
             this.textLuminairesOutput.TabIndex = 33;
+            this.textLuminairesOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label46
             // 

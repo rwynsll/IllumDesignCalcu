@@ -64,7 +64,7 @@ namespace WindowsFormsApplication1
 
         private void buttonIllumCalculate_Click(object sender, EventArgs e)
         {
-
+            computeIllumination();
         }
 
         private void label43_Click(object sender, EventArgs e)
@@ -75,6 +75,47 @@ namespace WindowsFormsApplication1
         private void label44_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void computeLuminaires()
+        {
+            var length = numLuminairesLength.Value;
+            var width = numLuminairesWidth.Value;
+            var lumens = numLuminairesLumens.Value;
+            var lamps = numLuminanceLamps.Value;
+            var cu = numLuminairesCU.Value;
+            var mf = numLuminairesMF.Value;
+            var illumination = numLuminairesIllumination.Value;
+
+            var top = length * width * illumination;
+            var bottom = lamps * lumens * cu * mf;
+            var luminaires = top * bottom;
+
+            textLuminairesOutput.Text = luminaires.ToString();
+
+        }
+        private void computeIllumination()
+        {
+            var length = numIllumLength.Value;
+            var width = numIllumWidth.Value;
+            var lumens = numIllumLumens.Value;
+            var cu = numIllumCU.Value;
+            var mf = numIllumMF.Value;
+
+
+            var top = lumens * cu;
+            var bottom = length * width;
+            var initial = top / bottom;
+            var maintained = initial * mf;
+
+            textIllumOutputInit.Text = initial.ToString();
+            textIllumOutputMaintained.Text = maintained.ToString();
+
+        }
+
+        private void buttonLuminairesCalculate_Click(object sender, EventArgs e)
+        {
+            computeLuminaires();
         }
     }
 }
