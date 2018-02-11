@@ -7,3 +7,7 @@ C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\
 C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Illumination Design Calculator.exe
 C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Illumination Design Calculator.pdb
 C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Illumination Design Calculator.csprojResolveAssemblyReference.cache
+C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Illumination Design Calculator.exe.manifest
+C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Illumination Design Calculator.application
+C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Illumination Design Calculator.exe.manifest
+C:\Users\RwynSll\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Illumination Design Calculator.application
