@@ -156,8 +156,10 @@ namespace WindowsFormsApplication1
 
             var pi = 314159265;
             var fourpi = 4 * pi;
-            var i = lumens / fourpi;
-            var top = 100000000 * i;
+            var lum = 100000000 * lumens;
+            var i = lum / fourpi;
+            var cosine = 1;
+            var top = i * cosine;
 
             var bottom = length * width;
 
@@ -183,8 +185,9 @@ namespace WindowsFormsApplication1
 
             var pi = 314159265;
             var fourpi = 4 * pi;
-            var i = lumens / fourpi;
-            var top = 100000000 * i;
+            var lum = 100000000 * lumens;
+            var i = lum / fourpi;
+            var top = i * height;
 
             var halflength = length / 2;
             halflength = halflength * halflength;
@@ -207,6 +210,51 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void computeCavity()
+        {
+            var length = numCavityLength.Value;
+            var width = numCavityWidth.Value;
+            var rh = numCavityRH.Value;
+            var h = rh;
+            var wph = numCavityWPH.Value;
+            var cch = numCavityCCH.Value;
+            var fch = wph;
+            var rch = rh - fch;
+            rch = rch - cch;
+
+            if (menuChooseCR.Checked)
+            {
+                h = rh;
+            }
+            if (menuChooseRCR.Checked)
+            {
+                h = rch;
+            }
+            if (menuChooseCCR.Checked)
+            {
+                h = cch;
+            }
+            if (menuChooseFCR.Checked)
+            {
+                h = fch;
+            }
+
+            var lw = length + width;
+            var top = h * lw;
+            var bottom = length * width;
+
+            if (bottom == 0)
+            {
+                MessageBox.Show("One of the parameters is zero. Please check and retry.", "Error");
+                bottom = 1;
+                top = 0;
+            }
+
+            var cavity = top / bottom;
+
+            textCavityOutput.Text = cavity.ToString("#.##");
+
+        }
         private void buttonLuminairesCalculate_Click(object sender, EventArgs e)
         {
             computeLuminaires();
@@ -225,6 +273,21 @@ namespace WindowsFormsApplication1
         private void buttonLuminanceCalculate_Click_1(object sender, EventArgs e)
         {
             computeLuminance();
+        }
+
+        private void buttonTwoCalculate(object sender, EventArgs e)
+        {
+            computeTwo();
+        }
+
+        private void label52_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCavityCalculate_Click(object sender, EventArgs e)
+        {
+
         }
 
     }
