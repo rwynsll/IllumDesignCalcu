@@ -61,5 +61,20 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void buttonIllumCalculate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label43_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label44_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
