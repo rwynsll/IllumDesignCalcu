@@ -37,11 +37,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void numIllumLength_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void label10_Click(object sender, EventArgs e)
         {
 
@@ -89,11 +84,20 @@ namespace WindowsFormsApplication1
 
             var top = length * width * illumination;
             var bottom = lamps * lumens * cu * mf;
-            var luminaires = top * bottom;
 
-            textLuminairesOutput.Text = luminaires.ToString();
+            if (bottom == 0)
+            {
+                MessageBox.Show("One of the parameters is zero. Please check and retry.", "Error");
+                bottom = 1;
+                top = 0;
+            }
+
+            var luminaires = top / bottom;
+
+            textLuminairesOutput.Text = luminaires.ToString("#.##");
 
         }
+
         private void computeIllumination()
         {
             var length = numIllumLength.Value;
@@ -101,15 +105,105 @@ namespace WindowsFormsApplication1
             var lumens = numIllumLumens.Value;
             var cu = numIllumCU.Value;
             var mf = numIllumMF.Value;
-
-
+            
             var top = lumens * cu;
             var bottom = length * width;
+            
+            if( bottom == 0){
+                MessageBox.Show("One of the parameters is zero. Please check and retry.", "Error");
+                bottom = 1;
+                top = 0;
+            }
+
             var initial = top / bottom;
             var maintained = initial * mf;
 
-            textIllumOutputInit.Text = initial.ToString();
-            textIllumOutputMaintained.Text = maintained.ToString();
+            textIllumOutputInit.Text = initial.ToString("#.##");
+            textIllumOutputMaintained.Text = maintained.ToString("#.##");
+
+        }
+
+        private void computeLuminance()
+        {
+            var length = numLuminanceLength.Value;
+            var width = numLuminanceWidth.Value;
+            var lumens = numLuminanceLumens.Value;
+            var lamps = numLuminanceLamps.Value;
+            var tf = numLuminanceTF.Value;
+
+            var top = lamps * lumens * tf;
+            var bottom = length * width;
+
+            if (bottom == 0)
+            {
+                MessageBox.Show("One of the parameters is zero. Please check and retry.", "Error");
+                bottom = 1;
+                top = 0;
+            }
+
+            var luminance = top / bottom;
+
+            textLuminanceOutput.Text = luminance.ToString("#.##");
+
+        }
+
+        private void computeTwo()
+        {
+            var length = numTwoLength.Value;
+            var width = numTwoWidth.Value;
+            var height = numTwoHeight.Value;
+            var lumens = numTwoLumens.Value;
+
+            var pi = 314159265;
+            var fourpi = 4 * pi;
+            var i = lumens / fourpi;
+            var top = 100000000 * i;
+
+            var bottom = length * width;
+
+            if (bottom == 0)
+            {
+                MessageBox.Show("One of the parameters is zero. Please check and retry.", "Error");
+                bottom = 1;
+                top = 0;
+            }
+
+            var two = top / bottom;
+
+            textTwoOutput.Text = two.ToString("#.##");
+
+        }
+
+        private void computeThree()
+        {
+            var length = numThreeLength.Value;
+            var width = numThreeWidth.Value;
+            var height = numThreeHeight.Value;
+            var lumens = numThreeLumens.Value;
+
+            var pi = 314159265;
+            var fourpi = 4 * pi;
+            var i = lumens / fourpi;
+            var top = 100000000 * i;
+
+            var halflength = length / 2;
+            halflength = halflength * halflength;
+            var halfwidth = width / 2;
+            halfwidth = halfwidth * halfwidth;
+            height = height * height;
+            var square = height + halfwidth + halflength;
+            var bottom = square;
+
+            if (bottom == 0)
+            {
+                MessageBox.Show("One of the parameters is zero. Please check and retry.", "Error");
+                bottom = 1;
+                top = 0;
+            }
+
+            var three = top / bottom;
+
+            textThreeOutput.Text = three.ToString("#.##");
 
         }
 
@@ -117,5 +211,21 @@ namespace WindowsFormsApplication1
         {
             computeLuminaires();
         }
+
+        private void buttonLuminanceCalculate_Click(object sender, EventArgs e)
+        {
+            computeLuminance();
+        }
+
+        private void buttonThree_Click(object sender, EventArgs e)
+        {
+            computeThree();
+        }
+
+        private void buttonLuminanceCalculate_Click_1(object sender, EventArgs e)
+        {
+            computeLuminance();
+        }
+
     }
 }

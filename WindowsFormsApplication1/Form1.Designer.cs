@@ -32,40 +32,11 @@
             this.rdbMetric = new System.Windows.Forms.RadioButton();
             this.rdbEnglish = new System.Windows.Forms.RadioButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.buttonIllumCalculate = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.numIllumMF = new System.Windows.Forms.NumericUpDown();
-            this.label18 = new System.Windows.Forms.Label();
-            this.numIllumCU = new System.Windows.Forms.NumericUpDown();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.numIllumLumens = new System.Windows.Forms.NumericUpDown();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.numIllumWidth = new System.Windows.Forms.NumericUpDown();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.numIllumLength = new System.Windows.Forms.NumericUpDown();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.buttonLuminanceCalculate = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.numLuminanceTF = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
-            this.numLuminanceLamps = new System.Windows.Forms.NumericUpDown();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.numLuminanceLumens = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.numLuminanceWidth = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.numLuminanceLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.textLuminairesOutputUnits = new System.Windows.Forms.Label();
+            this.textLuminairesOutput = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.numLuminairesMF = new System.Windows.Forms.NumericUpDown();
             this.label26 = new System.Windows.Forms.Label();
@@ -84,8 +55,52 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.numLuminairesLength = new System.Windows.Forms.NumericUpDown();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.textIllumOutputMaintainedUnits = new System.Windows.Forms.Label();
+            this.textIllumOutputMaintained = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.textIllumOutputInitUnits = new System.Windows.Forms.Label();
+            this.textIllumOutputInit = new System.Windows.Forms.TextBox();
+            this.buttonIllumCalculate = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.numIllumMF = new System.Windows.Forms.NumericUpDown();
+            this.label18 = new System.Windows.Forms.Label();
+            this.numIllumCU = new System.Windows.Forms.NumericUpDown();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.numIllumLumens = new System.Windows.Forms.NumericUpDown();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.numIllumWidth = new System.Windows.Forms.NumericUpDown();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.numIllumLength = new System.Windows.Forms.NumericUpDown();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.textLuminanceOutputUnits = new System.Windows.Forms.Label();
+            this.textLuminanceOutput = new System.Windows.Forms.TextBox();
+            this.buttonLuminanceCalculate = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.numLuminanceTF = new System.Windows.Forms.NumericUpDown();
+            this.label2 = new System.Windows.Forms.Label();
+            this.numLuminanceLamps = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.numLuminanceLumens = new System.Windows.Forms.NumericUpDown();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.numLuminanceWidth = new System.Windows.Forms.NumericUpDown();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.numLuminanceLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.textTwoOutputUnits = new System.Windows.Forms.Label();
+            this.textTwoOutput = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.numTwoLumens = new System.Windows.Forms.NumericUpDown();
@@ -101,40 +116,34 @@
             this.numTwoLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textIllumOutputInit = new System.Windows.Forms.TextBox();
-            this.textIllumOutputInitUnits = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.textIllumOutputMaintainedUnits = new System.Windows.Forms.Label();
-            this.textIllumOutputMaintained = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.textLuminairesOutputUnits = new System.Windows.Forms.Label();
-            this.textLuminairesOutput = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.textLuminanceOutputUnits = new System.Windows.Forms.Label();
-            this.textLuminanceOutput = new System.Windows.Forms.TextBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.textTwoOutputUnits = new System.Windows.Forms.Label();
-            this.textTwoOutput = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.textThreeOutputUnits = new System.Windows.Forms.Label();
             this.textThreeOutput = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.numThreeLumens = new System.Windows.Forms.NumericUpDown();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.numThreeHeight = new System.Windows.Forms.NumericUpDown();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.numThreeWidth = new System.Windows.Forms.NumericUpDown();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.numThreeLength = new System.Windows.Forms.NumericUpDown();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesMF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesCU)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesIllumination)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLamps)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLumens)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesWidth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLength)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numIllumMF)).BeginInit();
@@ -149,15 +158,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numLuminanceLumens)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLuminanceWidth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLuminanceLength)).BeginInit();
-            this.tabPage1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesMF)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesCU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesIllumination)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLamps)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLumens)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesWidth)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLength)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numTwoLumens)).BeginInit();
@@ -166,10 +166,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numTwoLength)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeLumens)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeHeight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeWidth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeLength)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -219,406 +219,6 @@
             this.tabControl1.Size = new System.Drawing.Size(310, 360);
             this.tabControl1.TabIndex = 1;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.groupBox4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(302, 334);
-            this.tabPage2.TabIndex = 0;
-            this.tabPage2.Text = "Illumination";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label44);
-            this.groupBox4.Controls.Add(this.textIllumOutputMaintainedUnits);
-            this.groupBox4.Controls.Add(this.textIllumOutputMaintained);
-            this.groupBox4.Controls.Add(this.label43);
-            this.groupBox4.Controls.Add(this.textIllumOutputInitUnits);
-            this.groupBox4.Controls.Add(this.textIllumOutputInit);
-            this.groupBox4.Controls.Add(this.buttonIllumCalculate);
-            this.groupBox4.Controls.Add(this.label17);
-            this.groupBox4.Controls.Add(this.numIllumMF);
-            this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.numIllumCU);
-            this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Controls.Add(this.label20);
-            this.groupBox4.Controls.Add(this.numIllumLumens);
-            this.groupBox4.Controls.Add(this.label21);
-            this.groupBox4.Controls.Add(this.label22);
-            this.groupBox4.Controls.Add(this.numIllumWidth);
-            this.groupBox4.Controls.Add(this.label23);
-            this.groupBox4.Controls.Add(this.label24);
-            this.groupBox4.Controls.Add(this.numIllumLength);
-            this.groupBox4.Location = new System.Drawing.Point(9, 3);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(285, 328);
-            this.groupBox4.TabIndex = 3;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Calculate for the Illumination";
-            // 
-            // buttonIllumCalculate
-            // 
-            this.buttonIllumCalculate.Location = new System.Drawing.Point(122, 245);
-            this.buttonIllumCalculate.Name = "buttonIllumCalculate";
-            this.buttonIllumCalculate.Size = new System.Drawing.Size(75, 23);
-            this.buttonIllumCalculate.TabIndex = 28;
-            this.buttonIllumCalculate.Text = "Calculate";
-            this.buttonIllumCalculate.UseVisualStyleBackColor = true;
-            this.buttonIllumCalculate.Click += new System.EventHandler(this.buttonIllumCalculate_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(12, 135);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(108, 13);
-            this.label17.TabIndex = 27;
-            this.label17.Text = "Maintenance Factor :";
-            // 
-            // numIllumMF
-            // 
-            this.numIllumMF.DecimalPlaces = 2;
-            this.numIllumMF.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            131072});
-            this.numIllumMF.Location = new System.Drawing.Point(122, 133);
-            this.numIllumMF.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numIllumMF.Name = "numIllumMF";
-            this.numIllumMF.Size = new System.Drawing.Size(100, 20);
-            this.numIllumMF.TabIndex = 26;
-            this.numIllumMF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(12, 109);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(89, 13);
-            this.label18.TabIndex = 25;
-            this.label18.Text = "Coeff. Utilization :";
-            // 
-            // numIllumCU
-            // 
-            this.numIllumCU.DecimalPlaces = 2;
-            this.numIllumCU.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            131072});
-            this.numIllumCU.Location = new System.Drawing.Point(122, 107);
-            this.numIllumCU.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numIllumCU.Name = "numIllumCU";
-            this.numIllumCU.Size = new System.Drawing.Size(100, 20);
-            this.numIllumCU.TabIndex = 24;
-            this.numIllumCU.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(228, 83);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(40, 13);
-            this.label19.TabIndex = 23;
-            this.label19.Text = "lumens";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(12, 83);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(80, 13);
-            this.label20.TabIndex = 22;
-            this.label20.Text = "Luminous Flux :";
-            // 
-            // numIllumLumens
-            // 
-            this.numIllumLumens.DecimalPlaces = 2;
-            this.numIllumLumens.Increment = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.numIllumLumens.Location = new System.Drawing.Point(122, 81);
-            this.numIllumLumens.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.numIllumLumens.Name = "numIllumLumens";
-            this.numIllumLumens.Size = new System.Drawing.Size(100, 20);
-            this.numIllumLumens.TabIndex = 21;
-            this.numIllumLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(228, 57);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(38, 13);
-            this.label21.TabIndex = 20;
-            this.label21.Text = "meters";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(12, 57);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(41, 13);
-            this.label22.TabIndex = 19;
-            this.label22.Text = "Width :";
-            // 
-            // numIllumWidth
-            // 
-            this.numIllumWidth.DecimalPlaces = 2;
-            this.numIllumWidth.Location = new System.Drawing.Point(122, 55);
-            this.numIllumWidth.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numIllumWidth.Name = "numIllumWidth";
-            this.numIllumWidth.Size = new System.Drawing.Size(100, 20);
-            this.numIllumWidth.TabIndex = 18;
-            this.numIllumWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(228, 31);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(38, 13);
-            this.label23.TabIndex = 17;
-            this.label23.Text = "meters";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(12, 31);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(46, 13);
-            this.label24.TabIndex = 16;
-            this.label24.Text = "Length :";
-            // 
-            // numIllumLength
-            // 
-            this.numIllumLength.DecimalPlaces = 2;
-            this.numIllumLength.Location = new System.Drawing.Point(122, 29);
-            this.numIllumLength.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numIllumLength.Name = "numIllumLength";
-            this.numIllumLength.Size = new System.Drawing.Size(100, 20);
-            this.numIllumLength.TabIndex = 15;
-            this.numIllumLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.groupBox3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(302, 334);
-            this.tabPage3.TabIndex = 1;
-            this.tabPage3.Text = "Luminance";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label46);
-            this.groupBox3.Controls.Add(this.textLuminanceOutputUnits);
-            this.groupBox3.Controls.Add(this.textLuminanceOutput);
-            this.groupBox3.Controls.Add(this.buttonLuminanceCalculate);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.numLuminanceTF);
-            this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.numLuminanceLamps);
-            this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.numLuminanceLumens);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.numLuminanceWidth);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.numLuminanceLength);
-            this.groupBox3.Location = new System.Drawing.Point(9, 3);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(285, 328);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Calculate for the Luminance";
-            // 
-            // buttonLuminanceCalculate
-            // 
-            this.buttonLuminanceCalculate.Location = new System.Drawing.Point(122, 245);
-            this.buttonLuminanceCalculate.Name = "buttonLuminanceCalculate";
-            this.buttonLuminanceCalculate.Size = new System.Drawing.Size(75, 23);
-            this.buttonLuminanceCalculate.TabIndex = 28;
-            this.buttonLuminanceCalculate.Text = "Calculate";
-            this.buttonLuminanceCalculate.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 135);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 13);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Transmission Factor :";
-            // 
-            // numLuminanceTF
-            // 
-            this.numLuminanceTF.DecimalPlaces = 2;
-            this.numLuminanceTF.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            131072});
-            this.numLuminanceTF.Location = new System.Drawing.Point(122, 133);
-            this.numLuminanceTF.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numLuminanceTF.Name = "numLuminanceTF";
-            this.numLuminanceTF.Size = new System.Drawing.Size(100, 20);
-            this.numLuminanceTF.TabIndex = 26;
-            this.numLuminanceTF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 109);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 13);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "No. of Lamps :";
-            // 
-            // numLuminanceLamps
-            // 
-            this.numLuminanceLamps.DecimalPlaces = 2;
-            this.numLuminanceLamps.Location = new System.Drawing.Point(122, 107);
-            this.numLuminanceLamps.Name = "numLuminanceLamps";
-            this.numLuminanceLamps.Size = new System.Drawing.Size(100, 20);
-            this.numLuminanceLamps.TabIndex = 24;
-            this.numLuminanceLamps.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(228, 83);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 13);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "lumens";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 83);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 13);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "Luminous Flux :";
-            // 
-            // numLuminanceLumens
-            // 
-            this.numLuminanceLumens.DecimalPlaces = 2;
-            this.numLuminanceLumens.Increment = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.numLuminanceLumens.Location = new System.Drawing.Point(122, 81);
-            this.numLuminanceLumens.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.numLuminanceLumens.Name = "numLuminanceLumens";
-            this.numLuminanceLumens.Size = new System.Drawing.Size(100, 20);
-            this.numLuminanceLumens.TabIndex = 21;
-            this.numLuminanceLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(228, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 13);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "meters";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 57);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 13);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Width :";
-            // 
-            // numLuminanceWidth
-            // 
-            this.numLuminanceWidth.DecimalPlaces = 2;
-            this.numLuminanceWidth.Location = new System.Drawing.Point(122, 55);
-            this.numLuminanceWidth.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numLuminanceWidth.Name = "numLuminanceWidth";
-            this.numLuminanceWidth.Size = new System.Drawing.Size(100, 20);
-            this.numLuminanceWidth.TabIndex = 18;
-            this.numLuminanceWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(228, 31);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 13);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "meters";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 31);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 13);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Length :";
-            // 
-            // numLuminanceLength
-            // 
-            this.numLuminanceLength.DecimalPlaces = 2;
-            this.numLuminanceLength.Location = new System.Drawing.Point(122, 29);
-            this.numLuminanceLength.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numLuminanceLength.Name = "numLuminanceLength";
-            this.numLuminanceLength.Size = new System.Drawing.Size(100, 20);
-            this.numLuminanceLength.TabIndex = 15;
-            this.numLuminanceLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.groupBox2);
@@ -658,6 +258,32 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Calculate for the Number of Luminaires";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(12, 277);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(95, 13);
+            this.label45.TabIndex = 35;
+            this.label45.Text = "No. of Luminaires :";
+            // 
+            // textLuminairesOutputUnits
+            // 
+            this.textLuminairesOutputUnits.AutoSize = true;
+            this.textLuminairesOutputUnits.Location = new System.Drawing.Point(228, 277);
+            this.textLuminairesOutputUnits.Name = "textLuminairesOutputUnits";
+            this.textLuminairesOutputUnits.Size = new System.Drawing.Size(29, 13);
+            this.textLuminairesOutputUnits.TabIndex = 34;
+            this.textLuminairesOutputUnits.Text = "units";
+            // 
+            // textLuminairesOutput
+            // 
+            this.textLuminairesOutput.Location = new System.Drawing.Point(122, 274);
+            this.textLuminairesOutput.Name = "textLuminairesOutput";
+            this.textLuminairesOutput.Size = new System.Drawing.Size(100, 20);
+            this.textLuminairesOutput.TabIndex = 33;
+            this.textLuminairesOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label25
             // 
@@ -867,6 +493,488 @@
             this.numLuminairesLength.TabIndex = 15;
             this.numLuminairesLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.groupBox4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(302, 334);
+            this.tabPage2.TabIndex = 0;
+            this.tabPage2.Text = "Illumination";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label44);
+            this.groupBox4.Controls.Add(this.textIllumOutputMaintainedUnits);
+            this.groupBox4.Controls.Add(this.textIllumOutputMaintained);
+            this.groupBox4.Controls.Add(this.label43);
+            this.groupBox4.Controls.Add(this.textIllumOutputInitUnits);
+            this.groupBox4.Controls.Add(this.textIllumOutputInit);
+            this.groupBox4.Controls.Add(this.buttonIllumCalculate);
+            this.groupBox4.Controls.Add(this.label17);
+            this.groupBox4.Controls.Add(this.numIllumMF);
+            this.groupBox4.Controls.Add(this.label18);
+            this.groupBox4.Controls.Add(this.numIllumCU);
+            this.groupBox4.Controls.Add(this.label19);
+            this.groupBox4.Controls.Add(this.label20);
+            this.groupBox4.Controls.Add(this.numIllumLumens);
+            this.groupBox4.Controls.Add(this.label21);
+            this.groupBox4.Controls.Add(this.label22);
+            this.groupBox4.Controls.Add(this.numIllumWidth);
+            this.groupBox4.Controls.Add(this.label23);
+            this.groupBox4.Controls.Add(this.label24);
+            this.groupBox4.Controls.Add(this.numIllumLength);
+            this.groupBox4.Location = new System.Drawing.Point(9, 3);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(285, 328);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Calculate for the Illumination";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(12, 303);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(97, 13);
+            this.label44.TabIndex = 34;
+            this.label44.Text = "Maint. Illumination :";
+            this.label44.Click += new System.EventHandler(this.label44_Click);
+            // 
+            // textIllumOutputMaintainedUnits
+            // 
+            this.textIllumOutputMaintainedUnits.AutoSize = true;
+            this.textIllumOutputMaintainedUnits.Location = new System.Drawing.Point(228, 303);
+            this.textIllumOutputMaintainedUnits.Name = "textIllumOutputMaintainedUnits";
+            this.textIllumOutputMaintainedUnits.Size = new System.Drawing.Size(29, 13);
+            this.textIllumOutputMaintainedUnits.TabIndex = 33;
+            this.textIllumOutputMaintainedUnits.Text = "units";
+            // 
+            // textIllumOutputMaintained
+            // 
+            this.textIllumOutputMaintained.Location = new System.Drawing.Point(122, 300);
+            this.textIllumOutputMaintained.Name = "textIllumOutputMaintained";
+            this.textIllumOutputMaintained.Size = new System.Drawing.Size(100, 20);
+            this.textIllumOutputMaintained.TabIndex = 32;
+            this.textIllumOutputMaintained.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(12, 277);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(92, 13);
+            this.label43.TabIndex = 31;
+            this.label43.Text = "Initial Illumination :";
+            this.label43.Click += new System.EventHandler(this.label43_Click);
+            // 
+            // textIllumOutputInitUnits
+            // 
+            this.textIllumOutputInitUnits.AutoSize = true;
+            this.textIllumOutputInitUnits.Location = new System.Drawing.Point(228, 277);
+            this.textIllumOutputInitUnits.Name = "textIllumOutputInitUnits";
+            this.textIllumOutputInitUnits.Size = new System.Drawing.Size(29, 13);
+            this.textIllumOutputInitUnits.TabIndex = 30;
+            this.textIllumOutputInitUnits.Text = "units";
+            // 
+            // textIllumOutputInit
+            // 
+            this.textIllumOutputInit.Location = new System.Drawing.Point(122, 274);
+            this.textIllumOutputInit.Name = "textIllumOutputInit";
+            this.textIllumOutputInit.Size = new System.Drawing.Size(100, 20);
+            this.textIllumOutputInit.TabIndex = 29;
+            this.textIllumOutputInit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // buttonIllumCalculate
+            // 
+            this.buttonIllumCalculate.Location = new System.Drawing.Point(122, 245);
+            this.buttonIllumCalculate.Name = "buttonIllumCalculate";
+            this.buttonIllumCalculate.Size = new System.Drawing.Size(75, 23);
+            this.buttonIllumCalculate.TabIndex = 28;
+            this.buttonIllumCalculate.Text = "Calculate";
+            this.buttonIllumCalculate.UseVisualStyleBackColor = true;
+            this.buttonIllumCalculate.Click += new System.EventHandler(this.buttonIllumCalculate_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(12, 135);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(108, 13);
+            this.label17.TabIndex = 27;
+            this.label17.Text = "Maintenance Factor :";
+            // 
+            // numIllumMF
+            // 
+            this.numIllumMF.DecimalPlaces = 2;
+            this.numIllumMF.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            131072});
+            this.numIllumMF.Location = new System.Drawing.Point(122, 133);
+            this.numIllumMF.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numIllumMF.Name = "numIllumMF";
+            this.numIllumMF.Size = new System.Drawing.Size(100, 20);
+            this.numIllumMF.TabIndex = 26;
+            this.numIllumMF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(12, 109);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(89, 13);
+            this.label18.TabIndex = 25;
+            this.label18.Text = "Coeff. Utilization :";
+            // 
+            // numIllumCU
+            // 
+            this.numIllumCU.DecimalPlaces = 2;
+            this.numIllumCU.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            131072});
+            this.numIllumCU.Location = new System.Drawing.Point(122, 107);
+            this.numIllumCU.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numIllumCU.Name = "numIllumCU";
+            this.numIllumCU.Size = new System.Drawing.Size(100, 20);
+            this.numIllumCU.TabIndex = 24;
+            this.numIllumCU.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(228, 83);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(40, 13);
+            this.label19.TabIndex = 23;
+            this.label19.Text = "lumens";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(12, 83);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(80, 13);
+            this.label20.TabIndex = 22;
+            this.label20.Text = "Luminous Flux :";
+            // 
+            // numIllumLumens
+            // 
+            this.numIllumLumens.DecimalPlaces = 2;
+            this.numIllumLumens.Increment = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.numIllumLumens.Location = new System.Drawing.Point(122, 81);
+            this.numIllumLumens.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numIllumLumens.Name = "numIllumLumens";
+            this.numIllumLumens.Size = new System.Drawing.Size(100, 20);
+            this.numIllumLumens.TabIndex = 21;
+            this.numIllumLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(228, 57);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(38, 13);
+            this.label21.TabIndex = 20;
+            this.label21.Text = "meters";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(12, 57);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(41, 13);
+            this.label22.TabIndex = 19;
+            this.label22.Text = "Width :";
+            // 
+            // numIllumWidth
+            // 
+            this.numIllumWidth.DecimalPlaces = 2;
+            this.numIllumWidth.Location = new System.Drawing.Point(122, 55);
+            this.numIllumWidth.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numIllumWidth.Name = "numIllumWidth";
+            this.numIllumWidth.Size = new System.Drawing.Size(100, 20);
+            this.numIllumWidth.TabIndex = 18;
+            this.numIllumWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(228, 31);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(38, 13);
+            this.label23.TabIndex = 17;
+            this.label23.Text = "meters";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(12, 31);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(46, 13);
+            this.label24.TabIndex = 16;
+            this.label24.Text = "Length :";
+            // 
+            // numIllumLength
+            // 
+            this.numIllumLength.DecimalPlaces = 2;
+            this.numIllumLength.Location = new System.Drawing.Point(122, 29);
+            this.numIllumLength.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numIllumLength.Name = "numIllumLength";
+            this.numIllumLength.Size = new System.Drawing.Size(100, 20);
+            this.numIllumLength.TabIndex = 15;
+            this.numIllumLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.groupBox3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(302, 334);
+            this.tabPage3.TabIndex = 1;
+            this.tabPage3.Text = "Luminance";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label46);
+            this.groupBox3.Controls.Add(this.textLuminanceOutputUnits);
+            this.groupBox3.Controls.Add(this.textLuminanceOutput);
+            this.groupBox3.Controls.Add(this.buttonLuminanceCalculate);
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.numLuminanceTF);
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.numLuminanceLamps);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.numLuminanceLumens);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.numLuminanceWidth);
+            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.label10);
+            this.groupBox3.Controls.Add(this.numLuminanceLength);
+            this.groupBox3.Location = new System.Drawing.Point(9, 3);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(285, 328);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Calculate for the Luminance";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(12, 277);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(65, 13);
+            this.label46.TabIndex = 34;
+            this.label46.Text = "Luminance :";
+            // 
+            // textLuminanceOutputUnits
+            // 
+            this.textLuminanceOutputUnits.AutoSize = true;
+            this.textLuminanceOutputUnits.Location = new System.Drawing.Point(228, 277);
+            this.textLuminanceOutputUnits.Name = "textLuminanceOutputUnits";
+            this.textLuminanceOutputUnits.Size = new System.Drawing.Size(29, 13);
+            this.textLuminanceOutputUnits.TabIndex = 33;
+            this.textLuminanceOutputUnits.Text = "units";
+            // 
+            // textLuminanceOutput
+            // 
+            this.textLuminanceOutput.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
+            this.textLuminanceOutput.Location = new System.Drawing.Point(122, 274);
+            this.textLuminanceOutput.Name = "textLuminanceOutput";
+            this.textLuminanceOutput.Size = new System.Drawing.Size(100, 20);
+            this.textLuminanceOutput.TabIndex = 32;
+            this.textLuminanceOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // buttonLuminanceCalculate
+            // 
+            this.buttonLuminanceCalculate.Location = new System.Drawing.Point(122, 245);
+            this.buttonLuminanceCalculate.Name = "buttonLuminanceCalculate";
+            this.buttonLuminanceCalculate.Size = new System.Drawing.Size(75, 23);
+            this.buttonLuminanceCalculate.TabIndex = 28;
+            this.buttonLuminanceCalculate.Text = "Calculate";
+            this.buttonLuminanceCalculate.UseVisualStyleBackColor = true;
+            this.buttonLuminanceCalculate.Click += new System.EventHandler(this.buttonLuminanceCalculate_Click_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 135);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(107, 13);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Transmission Factor :";
+            // 
+            // numLuminanceTF
+            // 
+            this.numLuminanceTF.DecimalPlaces = 2;
+            this.numLuminanceTF.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            131072});
+            this.numLuminanceTF.Location = new System.Drawing.Point(122, 133);
+            this.numLuminanceTF.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numLuminanceTF.Name = "numLuminanceTF";
+            this.numLuminanceTF.Size = new System.Drawing.Size(100, 20);
+            this.numLuminanceTF.TabIndex = 26;
+            this.numLuminanceTF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 109);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 13);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "No. of Lamps :";
+            // 
+            // numLuminanceLamps
+            // 
+            this.numLuminanceLamps.DecimalPlaces = 2;
+            this.numLuminanceLamps.Location = new System.Drawing.Point(122, 107);
+            this.numLuminanceLamps.Name = "numLuminanceLamps";
+            this.numLuminanceLamps.Size = new System.Drawing.Size(100, 20);
+            this.numLuminanceLamps.TabIndex = 24;
+            this.numLuminanceLamps.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(228, 83);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 13);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "lumens";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 83);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(80, 13);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Luminous Flux :";
+            // 
+            // numLuminanceLumens
+            // 
+            this.numLuminanceLumens.DecimalPlaces = 2;
+            this.numLuminanceLumens.Increment = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.numLuminanceLumens.Location = new System.Drawing.Point(122, 81);
+            this.numLuminanceLumens.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numLuminanceLumens.Name = "numLuminanceLumens";
+            this.numLuminanceLumens.Size = new System.Drawing.Size(100, 20);
+            this.numLuminanceLumens.TabIndex = 21;
+            this.numLuminanceLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(228, 57);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(38, 13);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "meters";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 57);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 13);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Width :";
+            // 
+            // numLuminanceWidth
+            // 
+            this.numLuminanceWidth.DecimalPlaces = 2;
+            this.numLuminanceWidth.Location = new System.Drawing.Point(122, 55);
+            this.numLuminanceWidth.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numLuminanceWidth.Name = "numLuminanceWidth";
+            this.numLuminanceWidth.Size = new System.Drawing.Size(100, 20);
+            this.numLuminanceWidth.TabIndex = 18;
+            this.numLuminanceWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(228, 31);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(38, 13);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "meters";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(12, 31);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(46, 13);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "Length :";
+            // 
+            // numLuminanceLength
+            // 
+            this.numLuminanceLength.DecimalPlaces = 2;
+            this.numLuminanceLength.Location = new System.Drawing.Point(122, 29);
+            this.numLuminanceLength.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numLuminanceLength.Name = "numLuminanceLength";
+            this.numLuminanceLength.Size = new System.Drawing.Size(100, 20);
+            this.numLuminanceLength.TabIndex = 15;
+            this.numLuminanceLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.groupBox5);
@@ -901,6 +1009,32 @@
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Calculate for the Illumination by 2D point-by-point";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(12, 277);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(65, 13);
+            this.label47.TabIndex = 34;
+            this.label47.Text = "Illumination :";
+            // 
+            // textTwoOutputUnits
+            // 
+            this.textTwoOutputUnits.AutoSize = true;
+            this.textTwoOutputUnits.Location = new System.Drawing.Point(228, 277);
+            this.textTwoOutputUnits.Name = "textTwoOutputUnits";
+            this.textTwoOutputUnits.Size = new System.Drawing.Size(29, 13);
+            this.textTwoOutputUnits.TabIndex = 33;
+            this.textTwoOutputUnits.Text = "units";
+            // 
+            // textTwoOutput
+            // 
+            this.textTwoOutput.Location = new System.Drawing.Point(122, 274);
+            this.textTwoOutput.Name = "textTwoOutput";
+            this.textTwoOutput.Size = new System.Drawing.Size(100, 20);
+            this.textTwoOutput.TabIndex = 32;
+            this.textTwoOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label28
             // 
@@ -1061,304 +1195,23 @@
             this.groupBox6.Controls.Add(this.textThreeOutput);
             this.groupBox6.Controls.Add(this.label27);
             this.groupBox6.Controls.Add(this.label36);
-            this.groupBox6.Controls.Add(this.numericUpDown1);
+            this.groupBox6.Controls.Add(this.numThreeLumens);
             this.groupBox6.Controls.Add(this.button2);
             this.groupBox6.Controls.Add(this.label37);
             this.groupBox6.Controls.Add(this.label38);
-            this.groupBox6.Controls.Add(this.numericUpDown2);
+            this.groupBox6.Controls.Add(this.numThreeHeight);
             this.groupBox6.Controls.Add(this.label39);
             this.groupBox6.Controls.Add(this.label40);
-            this.groupBox6.Controls.Add(this.numericUpDown3);
+            this.groupBox6.Controls.Add(this.numThreeWidth);
             this.groupBox6.Controls.Add(this.label41);
             this.groupBox6.Controls.Add(this.label42);
-            this.groupBox6.Controls.Add(this.numericUpDown4);
+            this.groupBox6.Controls.Add(this.numThreeLength);
             this.groupBox6.Location = new System.Drawing.Point(9, 3);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(285, 328);
             this.groupBox6.TabIndex = 4;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Calculate for the Illumination by 3D point-by-point";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(228, 109);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(40, 13);
-            this.label27.TabIndex = 31;
-            this.label27.Text = "lumens";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(12, 109);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(80, 13);
-            this.label36.TabIndex = 30;
-            this.label36.Text = "Luminous Flux :";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.DecimalPlaces = 2;
-            this.numericUpDown1.Increment = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Location = new System.Drawing.Point(122, 107);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(100, 20);
-            this.numericUpDown1.TabIndex = 29;
-            this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(122, 245);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "Calculate";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(228, 83);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(38, 13);
-            this.label37.TabIndex = 23;
-            this.label37.Text = "meters";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(12, 83);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(44, 13);
-            this.label38.TabIndex = 22;
-            this.label38.Text = "Height :";
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.DecimalPlaces = 2;
-            this.numericUpDown2.Location = new System.Drawing.Point(122, 81);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(100, 20);
-            this.numericUpDown2.TabIndex = 21;
-            this.numericUpDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(228, 57);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(38, 13);
-            this.label39.TabIndex = 20;
-            this.label39.Text = "meters";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(12, 57);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(41, 13);
-            this.label40.TabIndex = 19;
-            this.label40.Text = "Width :";
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.DecimalPlaces = 2;
-            this.numericUpDown3.Location = new System.Drawing.Point(122, 55);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(100, 20);
-            this.numericUpDown3.TabIndex = 18;
-            this.numericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(228, 31);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(38, 13);
-            this.label41.TabIndex = 17;
-            this.label41.Text = "meters";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(12, 31);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(46, 13);
-            this.label42.TabIndex = 16;
-            this.label42.Text = "Length :";
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.DecimalPlaces = 2;
-            this.numericUpDown4.Location = new System.Drawing.Point(122, 29);
-            this.numericUpDown4.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(100, 20);
-            this.numericUpDown4.TabIndex = 15;
-            this.numericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(270, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 45);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "basic calc";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textIllumOutputInit
-            // 
-            this.textIllumOutputInit.Location = new System.Drawing.Point(122, 274);
-            this.textIllumOutputInit.Name = "textIllumOutputInit";
-            this.textIllumOutputInit.Size = new System.Drawing.Size(100, 20);
-            this.textIllumOutputInit.TabIndex = 29;
-            // 
-            // textIllumOutputInitUnits
-            // 
-            this.textIllumOutputInitUnits.AutoSize = true;
-            this.textIllumOutputInitUnits.Location = new System.Drawing.Point(228, 277);
-            this.textIllumOutputInitUnits.Name = "textIllumOutputInitUnits";
-            this.textIllumOutputInitUnits.Size = new System.Drawing.Size(29, 13);
-            this.textIllumOutputInitUnits.TabIndex = 30;
-            this.textIllumOutputInitUnits.Text = "units";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(12, 277);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(92, 13);
-            this.label43.TabIndex = 31;
-            this.label43.Text = "Initial Illumination :";
-            this.label43.Click += new System.EventHandler(this.label43_Click);
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(12, 303);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(97, 13);
-            this.label44.TabIndex = 34;
-            this.label44.Text = "Maint. Illumination :";
-            this.label44.Click += new System.EventHandler(this.label44_Click);
-            // 
-            // textIllumOutputMaintainedUnits
-            // 
-            this.textIllumOutputMaintainedUnits.AutoSize = true;
-            this.textIllumOutputMaintainedUnits.Location = new System.Drawing.Point(228, 303);
-            this.textIllumOutputMaintainedUnits.Name = "textIllumOutputMaintainedUnits";
-            this.textIllumOutputMaintainedUnits.Size = new System.Drawing.Size(29, 13);
-            this.textIllumOutputMaintainedUnits.TabIndex = 33;
-            this.textIllumOutputMaintainedUnits.Text = "units";
-            // 
-            // textIllumOutputMaintained
-            // 
-            this.textIllumOutputMaintained.Location = new System.Drawing.Point(122, 300);
-            this.textIllumOutputMaintained.Name = "textIllumOutputMaintained";
-            this.textIllumOutputMaintained.Size = new System.Drawing.Size(100, 20);
-            this.textIllumOutputMaintained.TabIndex = 32;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(12, 277);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(95, 13);
-            this.label45.TabIndex = 35;
-            this.label45.Text = "No. of Luminaires :";
-            // 
-            // textLuminairesOutputUnits
-            // 
-            this.textLuminairesOutputUnits.AutoSize = true;
-            this.textLuminairesOutputUnits.Location = new System.Drawing.Point(228, 277);
-            this.textLuminairesOutputUnits.Name = "textLuminairesOutputUnits";
-            this.textLuminairesOutputUnits.Size = new System.Drawing.Size(29, 13);
-            this.textLuminairesOutputUnits.TabIndex = 34;
-            this.textLuminairesOutputUnits.Text = "units";
-            // 
-            // textLuminairesOutput
-            // 
-            this.textLuminairesOutput.Location = new System.Drawing.Point(122, 274);
-            this.textLuminairesOutput.Name = "textLuminairesOutput";
-            this.textLuminairesOutput.Size = new System.Drawing.Size(100, 20);
-            this.textLuminairesOutput.TabIndex = 33;
-            this.textLuminairesOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(12, 277);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(65, 13);
-            this.label46.TabIndex = 34;
-            this.label46.Text = "Luminance :";
-            // 
-            // textLuminanceOutputUnits
-            // 
-            this.textLuminanceOutputUnits.AutoSize = true;
-            this.textLuminanceOutputUnits.Location = new System.Drawing.Point(228, 277);
-            this.textLuminanceOutputUnits.Name = "textLuminanceOutputUnits";
-            this.textLuminanceOutputUnits.Size = new System.Drawing.Size(29, 13);
-            this.textLuminanceOutputUnits.TabIndex = 33;
-            this.textLuminanceOutputUnits.Text = "units";
-            // 
-            // textLuminanceOutput
-            // 
-            this.textLuminanceOutput.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
-            this.textLuminanceOutput.Location = new System.Drawing.Point(122, 274);
-            this.textLuminanceOutput.Name = "textLuminanceOutput";
-            this.textLuminanceOutput.Size = new System.Drawing.Size(100, 20);
-            this.textLuminanceOutput.TabIndex = 32;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(12, 277);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(65, 13);
-            this.label47.TabIndex = 34;
-            this.label47.Text = "Illumination :";
-            // 
-            // textTwoOutputUnits
-            // 
-            this.textTwoOutputUnits.AutoSize = true;
-            this.textTwoOutputUnits.Location = new System.Drawing.Point(228, 277);
-            this.textTwoOutputUnits.Name = "textTwoOutputUnits";
-            this.textTwoOutputUnits.Size = new System.Drawing.Size(29, 13);
-            this.textTwoOutputUnits.TabIndex = 33;
-            this.textTwoOutputUnits.Text = "units";
-            // 
-            // textTwoOutput
-            // 
-            this.textTwoOutput.Location = new System.Drawing.Point(122, 274);
-            this.textTwoOutput.Name = "textTwoOutput";
-            this.textTwoOutput.Size = new System.Drawing.Size(100, 20);
-            this.textTwoOutput.TabIndex = 32;
             // 
             // label48
             // 
@@ -1384,6 +1237,160 @@
             this.textThreeOutput.Name = "textThreeOutput";
             this.textThreeOutput.Size = new System.Drawing.Size(100, 20);
             this.textThreeOutput.TabIndex = 35;
+            this.textThreeOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(228, 109);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(40, 13);
+            this.label27.TabIndex = 31;
+            this.label27.Text = "lumens";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(12, 109);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(80, 13);
+            this.label36.TabIndex = 30;
+            this.label36.Text = "Luminous Flux :";
+            // 
+            // numThreeLumens
+            // 
+            this.numThreeLumens.DecimalPlaces = 2;
+            this.numThreeLumens.Increment = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.numThreeLumens.Location = new System.Drawing.Point(122, 107);
+            this.numThreeLumens.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numThreeLumens.Name = "numThreeLumens";
+            this.numThreeLumens.Size = new System.Drawing.Size(100, 20);
+            this.numThreeLumens.TabIndex = 29;
+            this.numThreeLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(122, 245);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 28;
+            this.button2.Text = "Calculate";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.buttonThree_Click);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(228, 83);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(38, 13);
+            this.label37.TabIndex = 23;
+            this.label37.Text = "meters";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(12, 83);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(44, 13);
+            this.label38.TabIndex = 22;
+            this.label38.Text = "Height :";
+            // 
+            // numThreeHeight
+            // 
+            this.numThreeHeight.DecimalPlaces = 2;
+            this.numThreeHeight.Location = new System.Drawing.Point(122, 81);
+            this.numThreeHeight.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numThreeHeight.Name = "numThreeHeight";
+            this.numThreeHeight.Size = new System.Drawing.Size(100, 20);
+            this.numThreeHeight.TabIndex = 21;
+            this.numThreeHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(228, 57);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(38, 13);
+            this.label39.TabIndex = 20;
+            this.label39.Text = "meters";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(12, 57);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(41, 13);
+            this.label40.TabIndex = 19;
+            this.label40.Text = "Width :";
+            // 
+            // numThreeWidth
+            // 
+            this.numThreeWidth.DecimalPlaces = 2;
+            this.numThreeWidth.Location = new System.Drawing.Point(122, 55);
+            this.numThreeWidth.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numThreeWidth.Name = "numThreeWidth";
+            this.numThreeWidth.Size = new System.Drawing.Size(100, 20);
+            this.numThreeWidth.TabIndex = 18;
+            this.numThreeWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(228, 31);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(38, 13);
+            this.label41.TabIndex = 17;
+            this.label41.Text = "meters";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(12, 31);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(46, 13);
+            this.label42.TabIndex = 16;
+            this.label42.Text = "Length :";
+            // 
+            // numThreeLength
+            // 
+            this.numThreeLength.DecimalPlaces = 2;
+            this.numThreeLength.Location = new System.Drawing.Point(122, 29);
+            this.numThreeLength.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numThreeLength.Name = "numThreeLength";
+            this.numThreeLength.Size = new System.Drawing.Size(100, 20);
+            this.numThreeLength.TabIndex = 15;
+            this.numThreeLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(270, 9);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(45, 45);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "basic calc";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -1394,6 +1401,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Illumination Design Calculator";
@@ -1401,6 +1409,16 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesMF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesCU)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesIllumination)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLamps)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLumens)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesWidth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLength)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -1417,16 +1435,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numLuminanceLumens)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLuminanceWidth)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLuminanceLength)).EndInit();
-            this.tabPage1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesMF)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesCU)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesIllumination)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLamps)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLumens)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesWidth)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLuminairesLength)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
@@ -1437,10 +1445,10 @@
             this.tabPage5.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeLumens)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeHeight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeWidth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreeLength)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1523,17 +1531,17 @@
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numThreeLumens;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numThreeHeight;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numThreeWidth;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown numThreeLength;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label textIllumOutputInitUnits;
         private System.Windows.Forms.TextBox textIllumOutputInit;
