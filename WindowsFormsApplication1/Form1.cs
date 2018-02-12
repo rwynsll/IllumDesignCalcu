@@ -155,17 +155,20 @@ namespace WindowsFormsApplication1
             var height = numTwoHeight.Value;
             var lumens = numTwoLumens.Value;
 
-            var pi = 314159265;
-            var fourpi = 4 * pi;
-            var lum = 100000000 * lumens;
-            var i = lum / fourpi;
-            var halflength = length / 2;
-            var ratio = halflength / height;
-            var tan = Math.Atan(1);
-            var cosine = 1;
-            var top = i * cosine;
+            decimal p = 3.14159265M;
+            double pi = (double)p;
+            double fourpi = 4 * pi;
+            double i = (double)lumens / (double)fourpi;
+            length = length / 2;
+            width = width / 2;
+            var ratio = length / height;
+            var atan = Math.Atan((double)ratio);
+            double cosine = Math.Cos((double)atan);
+            double top = (double)i * (double)cosine;
 
-            var bottom = length * width;
+            length = length * length;
+            width = width * width;
+            var bottom = length + width;
             
             if (bottom == 0)
             {
@@ -174,9 +177,9 @@ namespace WindowsFormsApplication1
                 top = 0;
             }
 
-            var two = top / bottom;
+            double two = (double)top / (double)bottom;
 
-            textTwoOutput.Text = tan.ToString("#.##");
+            textTwoOutput.Text = two.ToString("#.##");
            
         }
 
@@ -187,11 +190,11 @@ namespace WindowsFormsApplication1
             var height = numThreeHeight.Value;
             var lumens = numThreeLumens.Value;
 
-            var pi = 314159265;
-            var fourpi = 4 * pi;
-            var lum = 100000000 * lumens;
-            var i = lum / fourpi;
-            var top = i * height;
+            decimal p = 3.14159265M;
+            double pi = (double)p;
+            double fourpi = 4 * pi;
+            double i = (double)lumens / (double)fourpi;
+            double top = (double)i * (double)height;
 
             var halflength = length / 2;
             halflength = halflength * halflength;
@@ -199,7 +202,7 @@ namespace WindowsFormsApplication1
             halfwidth = halfwidth * halfwidth;
             height = height * height;
             var square = height + halfwidth + halflength;
-            var bottom = square;
+            double bottom = Math.Pow((double)square,(double)1.5);
 
             if (bottom == 0)
             {
@@ -208,7 +211,7 @@ namespace WindowsFormsApplication1
                 top = 0;
             }
 
-            var three = top / bottom;
+            double three = (double)top / (double)bottom;
 
             textThreeOutput.Text = three.ToString("#.##");
 
@@ -226,19 +229,19 @@ namespace WindowsFormsApplication1
             var rch = rh - fch;
             rch = rch - cch;
 
-            if (menuChooseCR.Checked)
+            if ( h != 0)
             {
                 h = rh;
             }
-            if (menuChooseRCR.Checked)
+            if ( h != 0)
             {
                 h = rch;
             }
-            if (menuChooseCCR.Checked)
+            if ( h != 0)
             {
                 h = cch;
             }
-            if (menuChooseFCR.Checked)
+            if ( h != 0)
             {
                 h = fch;
             }
@@ -299,25 +302,12 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void menuChooseCR_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void menuChooseRCR_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void menuChooseCCR_Click(object sender, EventArgs e)
+        private void comboCavity_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void menuChooseFCR_Click(object sender, EventArgs e)
-        {
-            
-        }
+
 
     }
 }

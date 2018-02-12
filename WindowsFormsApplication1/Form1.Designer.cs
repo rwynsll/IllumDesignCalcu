@@ -153,13 +153,9 @@
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.numCavityWidth = new System.Windows.Forms.NumericUpDown();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuCR = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuChooseCR = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuChooseRCR = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuChooseCCR = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuChooseFCR = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
+            this.label57 = new System.Windows.Forms.Label();
+            this.comboCavity = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -204,7 +200,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numCavityWPH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityRH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityWidth)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -1431,6 +1426,8 @@
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.comboCavity);
+            this.groupBox7.Controls.Add(this.label57);
             this.groupBox7.Controls.Add(this.label61);
             this.groupBox7.Controls.Add(this.label62);
             this.groupBox7.Controls.Add(this.numCavityLength);
@@ -1450,7 +1447,6 @@
             this.groupBox7.Controls.Add(this.label55);
             this.groupBox7.Controls.Add(this.label56);
             this.groupBox7.Controls.Add(this.numCavityWidth);
-            this.groupBox7.Controls.Add(this.menuStrip1);
             this.groupBox7.Location = new System.Drawing.Point(9, 3);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(285, 328);
@@ -1656,57 +1652,6 @@
             this.numCavityWidth.TabIndex = 18;
             this.numCavityWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuCR});
-            this.menuStrip1.Location = new System.Drawing.Point(3, 16);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(279, 24);
-            this.menuStrip1.TabIndex = 44;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // menuCR
-            // 
-            this.menuCR.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuChooseCR,
-            this.menuChooseRCR,
-            this.menuChooseCCR,
-            this.menuChooseFCR});
-            this.menuCR.Name = "menuCR";
-            this.menuCR.Size = new System.Drawing.Size(124, 20);
-            this.menuCR.Text = "Type of Cavity Ratio";
-            // 
-            // menuChooseCR
-            // 
-            this.menuChooseCR.Name = "menuChooseCR";
-            this.menuChooseCR.Size = new System.Drawing.Size(177, 22);
-            this.menuChooseCR.Text = "Cavity Ratio";
-            this.menuChooseCR.Click += new System.EventHandler(this.menuChooseCR_Click);
-            // 
-            // menuChooseRCR
-            // 
-            this.menuChooseRCR.Checked = true;
-            this.menuChooseRCR.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.menuChooseRCR.Name = "menuChooseRCR";
-            this.menuChooseRCR.Size = new System.Drawing.Size(177, 22);
-            this.menuChooseRCR.Text = "Room Cavity Ratio";
-            this.menuChooseRCR.Click += new System.EventHandler(this.menuChooseRCR_Click);
-            // 
-            // menuChooseCCR
-            // 
-            this.menuChooseCCR.Name = "menuChooseCCR";
-            this.menuChooseCCR.Size = new System.Drawing.Size(177, 22);
-            this.menuChooseCCR.Text = "Ceiling Cavity Ratio";
-            this.menuChooseCCR.Click += new System.EventHandler(this.menuChooseCCR_Click);
-            // 
-            // menuChooseFCR
-            // 
-            this.menuChooseFCR.Name = "menuChooseFCR";
-            this.menuChooseFCR.Size = new System.Drawing.Size(177, 22);
-            this.menuChooseFCR.Text = "Floor Cavity Ratio";
-            this.menuChooseFCR.Click += new System.EventHandler(this.menuChooseFCR_Click);
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(270, 9);
@@ -1716,6 +1661,29 @@
             this.button1.Text = "basic calc";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(12, 31);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(109, 13);
+            this.label57.TabIndex = 50;
+            this.label57.Text = "Choose Cavity Ratio :";
+            // 
+            // comboCavity
+            // 
+            this.comboCavity.FormattingEnabled = true;
+            this.comboCavity.Items.AddRange(new object[] {
+            "Cavity Ratio",
+            "Room Cavity Ratio",
+            "Ceiling Cavity Ratio",
+            "Floor Cavity Ratio"});
+            this.comboCavity.Location = new System.Drawing.Point(122, 28);
+            this.comboCavity.Name = "comboCavity";
+            this.comboCavity.Size = new System.Drawing.Size(150, 21);
+            this.comboCavity.TabIndex = 51;
+            this.comboCavity.SelectedIndexChanged += new System.EventHandler(this.comboCavity_Click);
             // 
             // Form1
             // 
@@ -1728,7 +1696,6 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Illumination Design Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1783,8 +1750,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numCavityWPH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityRH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityWidth)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1917,12 +1882,8 @@
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.NumericUpDown numCavityLength;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem menuCR;
-        private System.Windows.Forms.ToolStripMenuItem menuChooseCR;
-        private System.Windows.Forms.ToolStripMenuItem menuChooseRCR;
-        private System.Windows.Forms.ToolStripMenuItem menuChooseCCR;
-        private System.Windows.Forms.ToolStripMenuItem menuChooseFCR;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.ComboBox comboCavity;
     }
 }
 
