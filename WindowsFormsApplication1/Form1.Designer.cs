@@ -132,9 +132,17 @@
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.numThreeLength = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.numCavityLength = new System.Windows.Forms.NumericUpDown();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.numCavityCCH = new System.Windows.Forms.NumericUpDown();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.numCavityWPH = new System.Windows.Forms.NumericUpDown();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.textCavityOutput = new System.Windows.Forms.TextBox();
@@ -145,21 +153,13 @@
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.numCavityWidth = new System.Windows.Forms.NumericUpDown();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.numCavityWPH = new System.Windows.Forms.NumericUpDown();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.numCavityCCH = new System.Windows.Forms.NumericUpDown();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.numCavityLength = new System.Windows.Forms.NumericUpDown();
             this.menuCR = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChooseCR = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChooseRCR = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChooseCCR = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChooseFCR = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -199,12 +199,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.numThreeLength)).BeginInit();
             this.tabPage6.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCavityLength)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCavityCCH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCavityWPH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityRH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityWidth)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numCavityWPH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numCavityCCH)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numCavityLength)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -1419,16 +1419,6 @@
             this.numThreeLength.TabIndex = 15;
             this.numThreeLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(270, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 45);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "basic calc";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.groupBox7);
@@ -1468,14 +1458,112 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Calculate for the Cavity Ratios";
             // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(228, 57);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(38, 13);
+            this.label61.TabIndex = 47;
+            this.label61.Text = "meters";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(12, 57);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(46, 13);
+            this.label62.TabIndex = 46;
+            this.label62.Text = "Length :";
+            // 
+            // numCavityLength
+            // 
+            this.numCavityLength.DecimalPlaces = 2;
+            this.numCavityLength.Location = new System.Drawing.Point(122, 55);
+            this.numCavityLength.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numCavityLength.Name = "numCavityLength";
+            this.numCavityLength.Size = new System.Drawing.Size(100, 20);
+            this.numCavityLength.TabIndex = 45;
+            this.numCavityLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(228, 161);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(38, 13);
+            this.label59.TabIndex = 43;
+            this.label59.Text = "meters";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(12, 161);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(110, 13);
+            this.label60.TabIndex = 42;
+            this.label60.Text = "Ceiling Cavity Height :";
+            // 
+            // numCavityCCH
+            // 
+            this.numCavityCCH.DecimalPlaces = 2;
+            this.numCavityCCH.Location = new System.Drawing.Point(122, 159);
+            this.numCavityCCH.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numCavityCCH.Name = "numCavityCCH";
+            this.numCavityCCH.Size = new System.Drawing.Size(100, 20);
+            this.numCavityCCH.TabIndex = 41;
+            this.numCavityCCH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(228, 135);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(38, 13);
+            this.label51.TabIndex = 40;
+            this.label51.Text = "meters";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(12, 135);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(100, 13);
+            this.label52.TabIndex = 39;
+            this.label52.Text = "WorkPlane Height :";
+            this.label52.Click += new System.EventHandler(this.label52_Click);
+            // 
+            // numCavityWPH
+            // 
+            this.numCavityWPH.DecimalPlaces = 2;
+            this.numCavityWPH.Location = new System.Drawing.Point(122, 133);
+            this.numCavityWPH.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numCavityWPH.Name = "numCavityWPH";
+            this.numCavityWPH.Size = new System.Drawing.Size(100, 20);
+            this.numCavityWPH.TabIndex = 38;
+            this.numCavityWPH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // label49
             // 
             this.label49.AutoSize = true;
             this.label49.Location = new System.Drawing.Point(12, 277);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(65, 13);
+            this.label49.Size = new System.Drawing.Size(70, 13);
             this.label49.TabIndex = 37;
-            this.label49.Text = "Illumination :";
+            this.label49.Text = "Cavity Ratio :";
+            this.label49.Click += new System.EventHandler(this.label49_Click);
             // 
             // label50
             // 
@@ -1568,71 +1656,6 @@
             this.numCavityWidth.TabIndex = 18;
             this.numCavityWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(228, 135);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(38, 13);
-            this.label51.TabIndex = 40;
-            this.label51.Text = "meters";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(12, 135);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(100, 13);
-            this.label52.TabIndex = 39;
-            this.label52.Text = "WorkPlane Height :";
-            this.label52.Click += new System.EventHandler(this.label52_Click);
-            // 
-            // numCavityWPH
-            // 
-            this.numCavityWPH.DecimalPlaces = 2;
-            this.numCavityWPH.Location = new System.Drawing.Point(122, 133);
-            this.numCavityWPH.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numCavityWPH.Name = "numCavityWPH";
-            this.numCavityWPH.Size = new System.Drawing.Size(100, 20);
-            this.numCavityWPH.TabIndex = 38;
-            this.numCavityWPH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(228, 161);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(38, 13);
-            this.label59.TabIndex = 43;
-            this.label59.Text = "meters";
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(12, 161);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(110, 13);
-            this.label60.TabIndex = 42;
-            this.label60.Text = "Ceiling Cavity Height :";
-            // 
-            // numCavityCCH
-            // 
-            this.numCavityCCH.DecimalPlaces = 2;
-            this.numCavityCCH.Location = new System.Drawing.Point(122, 159);
-            this.numCavityCCH.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numCavityCCH.Name = "numCavityCCH";
-            this.numCavityCCH.Size = new System.Drawing.Size(100, 20);
-            this.numCavityCCH.TabIndex = 41;
-            this.numCavityCCH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1642,38 +1665,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(279, 24);
             this.menuStrip1.TabIndex = 44;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(228, 57);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(38, 13);
-            this.label61.TabIndex = 47;
-            this.label61.Text = "meters";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(12, 57);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(46, 13);
-            this.label62.TabIndex = 46;
-            this.label62.Text = "Length :";
-            // 
-            // numCavityLength
-            // 
-            this.numCavityLength.DecimalPlaces = 2;
-            this.numCavityLength.Location = new System.Drawing.Point(122, 55);
-            this.numCavityLength.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numCavityLength.Name = "numCavityLength";
-            this.numCavityLength.Size = new System.Drawing.Size(100, 20);
-            this.numCavityLength.TabIndex = 45;
-            this.numCavityLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // menuCR
             // 
@@ -1688,29 +1679,43 @@
             // 
             // menuChooseCR
             // 
-            this.menuChooseCR.Checked = true;
-            this.menuChooseCR.CheckState = System.Windows.Forms.CheckState.Checked;
             this.menuChooseCR.Name = "menuChooseCR";
             this.menuChooseCR.Size = new System.Drawing.Size(177, 22);
             this.menuChooseCR.Text = "Cavity Ratio";
+            this.menuChooseCR.Click += new System.EventHandler(this.menuChooseCR_Click);
             // 
             // menuChooseRCR
             // 
+            this.menuChooseRCR.Checked = true;
+            this.menuChooseRCR.CheckState = System.Windows.Forms.CheckState.Checked;
             this.menuChooseRCR.Name = "menuChooseRCR";
             this.menuChooseRCR.Size = new System.Drawing.Size(177, 22);
             this.menuChooseRCR.Text = "Room Cavity Ratio";
+            this.menuChooseRCR.Click += new System.EventHandler(this.menuChooseRCR_Click);
             // 
             // menuChooseCCR
             // 
             this.menuChooseCCR.Name = "menuChooseCCR";
             this.menuChooseCCR.Size = new System.Drawing.Size(177, 22);
             this.menuChooseCCR.Text = "Ceiling Cavity Ratio";
+            this.menuChooseCCR.Click += new System.EventHandler(this.menuChooseCCR_Click);
             // 
             // menuChooseFCR
             // 
             this.menuChooseFCR.Name = "menuChooseFCR";
             this.menuChooseFCR.Size = new System.Drawing.Size(177, 22);
             this.menuChooseFCR.Text = "Floor Cavity Ratio";
+            this.menuChooseFCR.Click += new System.EventHandler(this.menuChooseFCR_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(270, 9);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(45, 45);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "basic calc";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -1773,13 +1778,13 @@
             this.tabPage6.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCavityLength)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCavityCCH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCavityWPH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityRH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCavityWidth)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numCavityWPH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numCavityCCH)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numCavityLength)).EndInit();
             this.ResumeLayout(false);
 
         }

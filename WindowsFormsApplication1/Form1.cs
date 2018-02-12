@@ -147,6 +147,7 @@ namespace WindowsFormsApplication1
 
         }
 
+
         private void computeTwo()
         {
             var length = numTwoLength.Value;
@@ -158,11 +159,14 @@ namespace WindowsFormsApplication1
             var fourpi = 4 * pi;
             var lum = 100000000 * lumens;
             var i = lum / fourpi;
+            var halflength = length / 2;
+            var ratio = halflength / height;
+            var tan = Math.Atan(1);
             var cosine = 1;
             var top = i * cosine;
 
             var bottom = length * width;
-
+            
             if (bottom == 0)
             {
                 MessageBox.Show("One of the parameters is zero. Please check and retry.", "Error");
@@ -172,8 +176,8 @@ namespace WindowsFormsApplication1
 
             var two = top / bottom;
 
-            textTwoOutput.Text = two.ToString("#.##");
-
+            textTwoOutput.Text = tan.ToString("#.##");
+           
         }
 
         private void computeThree()
@@ -287,7 +291,32 @@ namespace WindowsFormsApplication1
 
         private void buttonCavityCalculate_Click(object sender, EventArgs e)
         {
+            computeCavity();
+        }
+                
+        private void label49_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void menuChooseCR_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void menuChooseRCR_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void menuChooseCCR_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuChooseFCR_Click(object sender, EventArgs e)
+        {
+            
         }
 
     }
