@@ -343,14 +343,17 @@ namespace WindowsFormsApplication1
         decimal ftm = 0.3048M;
         decimal luxfc = 0.0929030436M;
         decimal fclux = 10.7639M;
+
+        /*
         decimal millifoot = 0.9290303997M;
         decimal footmilli = 1.076391042M;
+        */
            
         private void rdbEnglish_Click(object sender, EventArgs e)
         {
             lb11.Text = "feet";
             lb12.Text = "feet";
-            lb14.Text = "feet";
+            lb14.Text = "fc";
             lb21.Text = "feet";
             lb22.Text = "feet";
             lb24.Text = "fc";
