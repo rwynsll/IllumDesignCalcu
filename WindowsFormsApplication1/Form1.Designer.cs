@@ -35,7 +35,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.textLuminairesOutputUnits = new System.Windows.Forms.Label();
+            this.lb15 = new System.Windows.Forms.Label();
             this.textLuminairesOutput = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.numLuminairesMF = new System.Windows.Forms.NumericUpDown();
@@ -46,116 +46,116 @@
             this.numLuminairesIllumination = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
             this.numLuminairesLamps = new System.Windows.Forms.NumericUpDown();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lb13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.numLuminairesLumens = new System.Windows.Forms.NumericUpDown();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lb12 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.numLuminairesWidth = new System.Windows.Forms.NumericUpDown();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lb11 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.numLuminairesLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label44 = new System.Windows.Forms.Label();
-            this.textIllumOutputMaintainedUnits = new System.Windows.Forms.Label();
+            this.lb25 = new System.Windows.Forms.Label();
             this.textIllumOutputMaintained = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.textIllumOutputInitUnits = new System.Windows.Forms.Label();
+            this.lb24 = new System.Windows.Forms.Label();
             this.textIllumOutputInit = new System.Windows.Forms.TextBox();
             this.buttonIllumCalculate = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.numIllumMF = new System.Windows.Forms.NumericUpDown();
             this.label18 = new System.Windows.Forms.Label();
             this.numIllumCU = new System.Windows.Forms.NumericUpDown();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lb23 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.numIllumLumens = new System.Windows.Forms.NumericUpDown();
-            this.label21 = new System.Windows.Forms.Label();
+            this.lb22 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.numIllumWidth = new System.Windows.Forms.NumericUpDown();
-            this.label23 = new System.Windows.Forms.Label();
+            this.lb21 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.numIllumLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label46 = new System.Windows.Forms.Label();
-            this.textLuminanceOutputUnits = new System.Windows.Forms.Label();
+            this.lb34 = new System.Windows.Forms.Label();
             this.textLuminanceOutput = new System.Windows.Forms.TextBox();
             this.buttonLuminanceCalculate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.numLuminanceTF = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.numLuminanceLamps = new System.Windows.Forms.NumericUpDown();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lb33 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.numLuminanceLumens = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lb32 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.numLuminanceWidth = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lb31 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.numLuminanceLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label47 = new System.Windows.Forms.Label();
-            this.textTwoOutputUnits = new System.Windows.Forms.Label();
+            this.lb45 = new System.Windows.Forms.Label();
             this.textTwoOutput = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
+            this.lb44 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.numTwoLumens = new System.Windows.Forms.NumericUpDown();
             this.buttonTwoCalculaate = new System.Windows.Forms.Button();
-            this.label29 = new System.Windows.Forms.Label();
+            this.lb43 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.numTwoHeight = new System.Windows.Forms.NumericUpDown();
-            this.label31 = new System.Windows.Forms.Label();
+            this.lb42 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.numTwoWidth = new System.Windows.Forms.NumericUpDown();
-            this.label33 = new System.Windows.Forms.Label();
+            this.lb41 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.numTwoLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label48 = new System.Windows.Forms.Label();
-            this.textThreeOutputUnits = new System.Windows.Forms.Label();
+            this.lb55 = new System.Windows.Forms.Label();
             this.textThreeOutput = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
+            this.lb54 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.numThreeLumens = new System.Windows.Forms.NumericUpDown();
             this.button2 = new System.Windows.Forms.Button();
-            this.label37 = new System.Windows.Forms.Label();
+            this.lb53 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.numThreeHeight = new System.Windows.Forms.NumericUpDown();
-            this.label39 = new System.Windows.Forms.Label();
+            this.lb52 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.numThreeWidth = new System.Windows.Forms.NumericUpDown();
-            this.label41 = new System.Windows.Forms.Label();
+            this.lb51 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.numThreeLength = new System.Windows.Forms.NumericUpDown();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.label61 = new System.Windows.Forms.Label();
+            this.comboCavity = new System.Windows.Forms.ComboBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.lb61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.numCavityLength = new System.Windows.Forms.NumericUpDown();
-            this.label59 = new System.Windows.Forms.Label();
+            this.lb65 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.numCavityCCH = new System.Windows.Forms.NumericUpDown();
-            this.label51 = new System.Windows.Forms.Label();
+            this.lb64 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.numCavityWPH = new System.Windows.Forms.NumericUpDown();
             this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
             this.textCavityOutput = new System.Windows.Forms.TextBox();
             this.buttonCavityCalculate = new System.Windows.Forms.Button();
-            this.label53 = new System.Windows.Forms.Label();
+            this.lb63 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.numCavityRH = new System.Windows.Forms.NumericUpDown();
-            this.label55 = new System.Windows.Forms.Label();
+            this.lb62 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.numCavityWidth = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
-            this.label57 = new System.Windows.Forms.Label();
-            this.comboCavity = new System.Windows.Forms.ComboBox();
+            this.lb14 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -224,6 +224,7 @@
             this.rdbMetric.TabStop = true;
             this.rdbMetric.Text = "Metric";
             this.rdbMetric.UseVisualStyleBackColor = true;
+            this.rdbMetric.Click += new System.EventHandler(this.rdbMetric_Click);
             // 
             // rdbEnglish
             // 
@@ -235,6 +236,7 @@
             this.rdbEnglish.Text = "English";
             this.rdbEnglish.UseVisualStyleBackColor = true;
             this.rdbEnglish.CheckedChanged += new System.EventHandler(this.rdbEnglish_CheckedChanged);
+            this.rdbEnglish.Click += new System.EventHandler(this.rdbEnglish_Click);
             // 
             // tabControl1
             // 
@@ -262,8 +264,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lb14);
             this.groupBox2.Controls.Add(this.label45);
-            this.groupBox2.Controls.Add(this.textLuminairesOutputUnits);
+            this.groupBox2.Controls.Add(this.lb15);
             this.groupBox2.Controls.Add(this.textLuminairesOutput);
             this.groupBox2.Controls.Add(this.label25);
             this.groupBox2.Controls.Add(this.numLuminairesMF);
@@ -274,13 +277,13 @@
             this.groupBox2.Controls.Add(this.numLuminairesIllumination);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.numLuminairesLamps);
-            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.lb13);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.numLuminairesLumens);
-            this.groupBox2.Controls.Add(this.label13);
+            this.groupBox2.Controls.Add(this.lb12);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.numLuminairesWidth);
-            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.lb11);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.numLuminairesLength);
             this.groupBox2.Location = new System.Drawing.Point(9, 3);
@@ -299,14 +302,14 @@
             this.label45.TabIndex = 35;
             this.label45.Text = "No. of Luminaires :";
             // 
-            // textLuminairesOutputUnits
+            // lb15
             // 
-            this.textLuminairesOutputUnits.AutoSize = true;
-            this.textLuminairesOutputUnits.Location = new System.Drawing.Point(228, 277);
-            this.textLuminairesOutputUnits.Name = "textLuminairesOutputUnits";
-            this.textLuminairesOutputUnits.Size = new System.Drawing.Size(29, 13);
-            this.textLuminairesOutputUnits.TabIndex = 34;
-            this.textLuminairesOutputUnits.Text = "units";
+            this.lb15.AutoSize = true;
+            this.lb15.Location = new System.Drawing.Point(228, 277);
+            this.lb15.Name = "lb15";
+            this.lb15.Size = new System.Drawing.Size(24, 13);
+            this.lb15.TabIndex = 34;
+            this.lb15.Text = "pcs";
             // 
             // textLuminairesOutput
             // 
@@ -423,14 +426,14 @@
             this.numLuminairesLamps.TabIndex = 24;
             this.numLuminairesLamps.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label11
+            // lb13
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(228, 83);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 13);
-            this.label11.TabIndex = 23;
-            this.label11.Text = "lumens";
+            this.lb13.AutoSize = true;
+            this.lb13.Location = new System.Drawing.Point(228, 83);
+            this.lb13.Name = "lb13";
+            this.lb13.Size = new System.Drawing.Size(40, 13);
+            this.lb13.TabIndex = 23;
+            this.lb13.Text = "lumens";
             // 
             // label12
             // 
@@ -460,14 +463,14 @@
             this.numLuminairesLumens.TabIndex = 21;
             this.numLuminairesLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label13
+            // lb12
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(228, 57);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(38, 13);
-            this.label13.TabIndex = 20;
-            this.label13.Text = "meters";
+            this.lb12.AutoSize = true;
+            this.lb12.Location = new System.Drawing.Point(228, 57);
+            this.lb12.Name = "lb12";
+            this.lb12.Size = new System.Drawing.Size(38, 13);
+            this.lb12.TabIndex = 20;
+            this.lb12.Text = "meters";
             // 
             // label14
             // 
@@ -492,14 +495,14 @@
             this.numLuminairesWidth.TabIndex = 18;
             this.numLuminairesWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label15
+            // lb11
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(228, 31);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(38, 13);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "meters";
+            this.lb11.AutoSize = true;
+            this.lb11.Location = new System.Drawing.Point(228, 31);
+            this.lb11.Name = "lb11";
+            this.lb11.Size = new System.Drawing.Size(38, 13);
+            this.lb11.TabIndex = 17;
+            this.lb11.Text = "meters";
             // 
             // label16
             // 
@@ -538,23 +541,23 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.label44);
-            this.groupBox4.Controls.Add(this.textIllumOutputMaintainedUnits);
+            this.groupBox4.Controls.Add(this.lb25);
             this.groupBox4.Controls.Add(this.textIllumOutputMaintained);
             this.groupBox4.Controls.Add(this.label43);
-            this.groupBox4.Controls.Add(this.textIllumOutputInitUnits);
+            this.groupBox4.Controls.Add(this.lb24);
             this.groupBox4.Controls.Add(this.textIllumOutputInit);
             this.groupBox4.Controls.Add(this.buttonIllumCalculate);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Controls.Add(this.numIllumMF);
             this.groupBox4.Controls.Add(this.label18);
             this.groupBox4.Controls.Add(this.numIllumCU);
-            this.groupBox4.Controls.Add(this.label19);
+            this.groupBox4.Controls.Add(this.lb23);
             this.groupBox4.Controls.Add(this.label20);
             this.groupBox4.Controls.Add(this.numIllumLumens);
-            this.groupBox4.Controls.Add(this.label21);
+            this.groupBox4.Controls.Add(this.lb22);
             this.groupBox4.Controls.Add(this.label22);
             this.groupBox4.Controls.Add(this.numIllumWidth);
-            this.groupBox4.Controls.Add(this.label23);
+            this.groupBox4.Controls.Add(this.lb21);
             this.groupBox4.Controls.Add(this.label24);
             this.groupBox4.Controls.Add(this.numIllumLength);
             this.groupBox4.Location = new System.Drawing.Point(9, 3);
@@ -574,14 +577,14 @@
             this.label44.Text = "Maint. Illumination :";
             this.label44.Click += new System.EventHandler(this.label44_Click);
             // 
-            // textIllumOutputMaintainedUnits
+            // lb25
             // 
-            this.textIllumOutputMaintainedUnits.AutoSize = true;
-            this.textIllumOutputMaintainedUnits.Location = new System.Drawing.Point(228, 303);
-            this.textIllumOutputMaintainedUnits.Name = "textIllumOutputMaintainedUnits";
-            this.textIllumOutputMaintainedUnits.Size = new System.Drawing.Size(29, 13);
-            this.textIllumOutputMaintainedUnits.TabIndex = 33;
-            this.textIllumOutputMaintainedUnits.Text = "units";
+            this.lb25.AutoSize = true;
+            this.lb25.Location = new System.Drawing.Point(228, 303);
+            this.lb25.Name = "lb25";
+            this.lb25.Size = new System.Drawing.Size(20, 13);
+            this.lb25.TabIndex = 33;
+            this.lb25.Text = "lux";
             // 
             // textIllumOutputMaintained
             // 
@@ -601,14 +604,14 @@
             this.label43.Text = "Initial Illumination :";
             this.label43.Click += new System.EventHandler(this.label43_Click);
             // 
-            // textIllumOutputInitUnits
+            // lb24
             // 
-            this.textIllumOutputInitUnits.AutoSize = true;
-            this.textIllumOutputInitUnits.Location = new System.Drawing.Point(228, 277);
-            this.textIllumOutputInitUnits.Name = "textIllumOutputInitUnits";
-            this.textIllumOutputInitUnits.Size = new System.Drawing.Size(29, 13);
-            this.textIllumOutputInitUnits.TabIndex = 30;
-            this.textIllumOutputInitUnits.Text = "units";
+            this.lb24.AutoSize = true;
+            this.lb24.Location = new System.Drawing.Point(228, 277);
+            this.lb24.Name = "lb24";
+            this.lb24.Size = new System.Drawing.Size(20, 13);
+            this.lb24.TabIndex = 30;
+            this.lb24.Text = "lux";
             // 
             // textIllumOutputInit
             // 
@@ -684,14 +687,14 @@
             this.numIllumCU.TabIndex = 24;
             this.numIllumCU.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label19
+            // lb23
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(228, 83);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(40, 13);
-            this.label19.TabIndex = 23;
-            this.label19.Text = "lumens";
+            this.lb23.AutoSize = true;
+            this.lb23.Location = new System.Drawing.Point(228, 83);
+            this.lb23.Name = "lb23";
+            this.lb23.Size = new System.Drawing.Size(40, 13);
+            this.lb23.TabIndex = 23;
+            this.lb23.Text = "lumens";
             // 
             // label20
             // 
@@ -721,14 +724,14 @@
             this.numIllumLumens.TabIndex = 21;
             this.numIllumLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label21
+            // lb22
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(228, 57);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(38, 13);
-            this.label21.TabIndex = 20;
-            this.label21.Text = "meters";
+            this.lb22.AutoSize = true;
+            this.lb22.Location = new System.Drawing.Point(228, 57);
+            this.lb22.Name = "lb22";
+            this.lb22.Size = new System.Drawing.Size(38, 13);
+            this.lb22.TabIndex = 20;
+            this.lb22.Text = "meters";
             // 
             // label22
             // 
@@ -753,14 +756,14 @@
             this.numIllumWidth.TabIndex = 18;
             this.numIllumWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label23
+            // lb21
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(228, 31);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(38, 13);
-            this.label23.TabIndex = 17;
-            this.label23.Text = "meters";
+            this.lb21.AutoSize = true;
+            this.lb21.Location = new System.Drawing.Point(228, 31);
+            this.lb21.Name = "lb21";
+            this.lb21.Size = new System.Drawing.Size(38, 13);
+            this.lb21.TabIndex = 17;
+            this.lb21.Text = "meters";
             // 
             // label24
             // 
@@ -799,20 +802,20 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.label46);
-            this.groupBox3.Controls.Add(this.textLuminanceOutputUnits);
+            this.groupBox3.Controls.Add(this.lb34);
             this.groupBox3.Controls.Add(this.textLuminanceOutput);
             this.groupBox3.Controls.Add(this.buttonLuminanceCalculate);
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.numLuminanceTF);
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.numLuminanceLamps);
-            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.lb33);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.numLuminanceLumens);
-            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.lb32);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.numLuminanceWidth);
-            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.lb31);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.numLuminanceLength);
             this.groupBox3.Location = new System.Drawing.Point(9, 3);
@@ -831,14 +834,14 @@
             this.label46.TabIndex = 34;
             this.label46.Text = "Luminance :";
             // 
-            // textLuminanceOutputUnits
+            // lb34
             // 
-            this.textLuminanceOutputUnits.AutoSize = true;
-            this.textLuminanceOutputUnits.Location = new System.Drawing.Point(228, 277);
-            this.textLuminanceOutputUnits.Name = "textLuminanceOutputUnits";
-            this.textLuminanceOutputUnits.Size = new System.Drawing.Size(29, 13);
-            this.textLuminanceOutputUnits.TabIndex = 33;
-            this.textLuminanceOutputUnits.Text = "units";
+            this.lb34.AutoSize = true;
+            this.lb34.Location = new System.Drawing.Point(228, 277);
+            this.lb34.Name = "lb34";
+            this.lb34.Size = new System.Drawing.Size(53, 13);
+            this.lb34.TabIndex = 33;
+            this.lb34.Text = "mLambert";
             // 
             // textLuminanceOutput
             // 
@@ -867,6 +870,7 @@
             this.label1.Size = new System.Drawing.Size(107, 13);
             this.label1.TabIndex = 27;
             this.label1.Text = "Transmission Factor :";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // numLuminanceTF
             // 
@@ -905,14 +909,14 @@
             this.numLuminanceLamps.TabIndex = 24;
             this.numLuminanceLamps.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label3
+            // lb33
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(228, 83);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 13);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "lumens";
+            this.lb33.AutoSize = true;
+            this.lb33.Location = new System.Drawing.Point(228, 83);
+            this.lb33.Name = "lb33";
+            this.lb33.Size = new System.Drawing.Size(40, 13);
+            this.lb33.TabIndex = 23;
+            this.lb33.Text = "lumens";
             // 
             // label4
             // 
@@ -942,14 +946,14 @@
             this.numLuminanceLumens.TabIndex = 21;
             this.numLuminanceLumens.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label5
+            // lb32
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(228, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 13);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "meters";
+            this.lb32.AutoSize = true;
+            this.lb32.Location = new System.Drawing.Point(228, 57);
+            this.lb32.Name = "lb32";
+            this.lb32.Size = new System.Drawing.Size(38, 13);
+            this.lb32.TabIndex = 20;
+            this.lb32.Text = "meters";
             // 
             // label6
             // 
@@ -974,14 +978,14 @@
             this.numLuminanceWidth.TabIndex = 18;
             this.numLuminanceWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label8
+            // lb31
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(228, 31);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 13);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "meters";
+            this.lb31.AutoSize = true;
+            this.lb31.Location = new System.Drawing.Point(228, 31);
+            this.lb31.Name = "lb31";
+            this.lb31.Size = new System.Drawing.Size(38, 13);
+            this.lb31.TabIndex = 17;
+            this.lb31.Text = "meters";
             // 
             // label10
             // 
@@ -1019,19 +1023,19 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.label47);
-            this.groupBox5.Controls.Add(this.textTwoOutputUnits);
+            this.groupBox5.Controls.Add(this.lb45);
             this.groupBox5.Controls.Add(this.textTwoOutput);
-            this.groupBox5.Controls.Add(this.label28);
+            this.groupBox5.Controls.Add(this.lb44);
             this.groupBox5.Controls.Add(this.label35);
             this.groupBox5.Controls.Add(this.numTwoLumens);
             this.groupBox5.Controls.Add(this.buttonTwoCalculaate);
-            this.groupBox5.Controls.Add(this.label29);
+            this.groupBox5.Controls.Add(this.lb43);
             this.groupBox5.Controls.Add(this.label30);
             this.groupBox5.Controls.Add(this.numTwoHeight);
-            this.groupBox5.Controls.Add(this.label31);
+            this.groupBox5.Controls.Add(this.lb42);
             this.groupBox5.Controls.Add(this.label32);
             this.groupBox5.Controls.Add(this.numTwoWidth);
-            this.groupBox5.Controls.Add(this.label33);
+            this.groupBox5.Controls.Add(this.lb41);
             this.groupBox5.Controls.Add(this.label34);
             this.groupBox5.Controls.Add(this.numTwoLength);
             this.groupBox5.Location = new System.Drawing.Point(9, 3);
@@ -1050,14 +1054,14 @@
             this.label47.TabIndex = 34;
             this.label47.Text = "Illumination :";
             // 
-            // textTwoOutputUnits
+            // lb45
             // 
-            this.textTwoOutputUnits.AutoSize = true;
-            this.textTwoOutputUnits.Location = new System.Drawing.Point(228, 277);
-            this.textTwoOutputUnits.Name = "textTwoOutputUnits";
-            this.textTwoOutputUnits.Size = new System.Drawing.Size(29, 13);
-            this.textTwoOutputUnits.TabIndex = 33;
-            this.textTwoOutputUnits.Text = "units";
+            this.lb45.AutoSize = true;
+            this.lb45.Location = new System.Drawing.Point(228, 277);
+            this.lb45.Name = "lb45";
+            this.lb45.Size = new System.Drawing.Size(20, 13);
+            this.lb45.TabIndex = 33;
+            this.lb45.Text = "lux";
             // 
             // textTwoOutput
             // 
@@ -1067,14 +1071,14 @@
             this.textTwoOutput.TabIndex = 32;
             this.textTwoOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label28
+            // lb44
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(228, 109);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(40, 13);
-            this.label28.TabIndex = 31;
-            this.label28.Text = "lumens";
+            this.lb44.AutoSize = true;
+            this.lb44.Location = new System.Drawing.Point(228, 109);
+            this.lb44.Name = "lb44";
+            this.lb44.Size = new System.Drawing.Size(40, 13);
+            this.lb44.TabIndex = 31;
+            this.lb44.Text = "lumens";
             // 
             // label35
             // 
@@ -1114,14 +1118,14 @@
             this.buttonTwoCalculaate.UseVisualStyleBackColor = true;
             this.buttonTwoCalculaate.Click += new System.EventHandler(this.buttonTwoCalculate);
             // 
-            // label29
+            // lb43
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(228, 83);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(38, 13);
-            this.label29.TabIndex = 23;
-            this.label29.Text = "meters";
+            this.lb43.AutoSize = true;
+            this.lb43.Location = new System.Drawing.Point(228, 83);
+            this.lb43.Name = "lb43";
+            this.lb43.Size = new System.Drawing.Size(38, 13);
+            this.lb43.TabIndex = 23;
+            this.lb43.Text = "meters";
             // 
             // label30
             // 
@@ -1146,14 +1150,14 @@
             this.numTwoHeight.TabIndex = 21;
             this.numTwoHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label31
+            // lb42
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(228, 57);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(38, 13);
-            this.label31.TabIndex = 20;
-            this.label31.Text = "meters";
+            this.lb42.AutoSize = true;
+            this.lb42.Location = new System.Drawing.Point(228, 57);
+            this.lb42.Name = "lb42";
+            this.lb42.Size = new System.Drawing.Size(38, 13);
+            this.lb42.TabIndex = 20;
+            this.lb42.Text = "meters";
             // 
             // label32
             // 
@@ -1178,14 +1182,14 @@
             this.numTwoWidth.TabIndex = 18;
             this.numTwoWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label33
+            // lb41
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(228, 31);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(38, 13);
-            this.label33.TabIndex = 17;
-            this.label33.Text = "meters";
+            this.lb41.AutoSize = true;
+            this.lb41.Location = new System.Drawing.Point(228, 31);
+            this.lb41.Name = "lb41";
+            this.lb41.Size = new System.Drawing.Size(38, 13);
+            this.lb41.TabIndex = 17;
+            this.lb41.Text = "meters";
             // 
             // label34
             // 
@@ -1223,19 +1227,19 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.label48);
-            this.groupBox6.Controls.Add(this.textThreeOutputUnits);
+            this.groupBox6.Controls.Add(this.lb55);
             this.groupBox6.Controls.Add(this.textThreeOutput);
-            this.groupBox6.Controls.Add(this.label27);
+            this.groupBox6.Controls.Add(this.lb54);
             this.groupBox6.Controls.Add(this.label36);
             this.groupBox6.Controls.Add(this.numThreeLumens);
             this.groupBox6.Controls.Add(this.button2);
-            this.groupBox6.Controls.Add(this.label37);
+            this.groupBox6.Controls.Add(this.lb53);
             this.groupBox6.Controls.Add(this.label38);
             this.groupBox6.Controls.Add(this.numThreeHeight);
-            this.groupBox6.Controls.Add(this.label39);
+            this.groupBox6.Controls.Add(this.lb52);
             this.groupBox6.Controls.Add(this.label40);
             this.groupBox6.Controls.Add(this.numThreeWidth);
-            this.groupBox6.Controls.Add(this.label41);
+            this.groupBox6.Controls.Add(this.lb51);
             this.groupBox6.Controls.Add(this.label42);
             this.groupBox6.Controls.Add(this.numThreeLength);
             this.groupBox6.Location = new System.Drawing.Point(9, 3);
@@ -1254,14 +1258,14 @@
             this.label48.TabIndex = 37;
             this.label48.Text = "Illumination :";
             // 
-            // textThreeOutputUnits
+            // lb55
             // 
-            this.textThreeOutputUnits.AutoSize = true;
-            this.textThreeOutputUnits.Location = new System.Drawing.Point(228, 277);
-            this.textThreeOutputUnits.Name = "textThreeOutputUnits";
-            this.textThreeOutputUnits.Size = new System.Drawing.Size(29, 13);
-            this.textThreeOutputUnits.TabIndex = 36;
-            this.textThreeOutputUnits.Text = "units";
+            this.lb55.AutoSize = true;
+            this.lb55.Location = new System.Drawing.Point(228, 277);
+            this.lb55.Name = "lb55";
+            this.lb55.Size = new System.Drawing.Size(20, 13);
+            this.lb55.TabIndex = 36;
+            this.lb55.Text = "lux";
             // 
             // textThreeOutput
             // 
@@ -1271,14 +1275,14 @@
             this.textThreeOutput.TabIndex = 35;
             this.textThreeOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label27
+            // lb54
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(228, 109);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(40, 13);
-            this.label27.TabIndex = 31;
-            this.label27.Text = "lumens";
+            this.lb54.AutoSize = true;
+            this.lb54.Location = new System.Drawing.Point(228, 109);
+            this.lb54.Name = "lb54";
+            this.lb54.Size = new System.Drawing.Size(40, 13);
+            this.lb54.TabIndex = 31;
+            this.lb54.Text = "lumens";
             // 
             // label36
             // 
@@ -1318,14 +1322,14 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.buttonThree_Click);
             // 
-            // label37
+            // lb53
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(228, 83);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(38, 13);
-            this.label37.TabIndex = 23;
-            this.label37.Text = "meters";
+            this.lb53.AutoSize = true;
+            this.lb53.Location = new System.Drawing.Point(228, 83);
+            this.lb53.Name = "lb53";
+            this.lb53.Size = new System.Drawing.Size(38, 13);
+            this.lb53.TabIndex = 23;
+            this.lb53.Text = "meters";
             // 
             // label38
             // 
@@ -1350,14 +1354,14 @@
             this.numThreeHeight.TabIndex = 21;
             this.numThreeHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label39
+            // lb52
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(228, 57);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(38, 13);
-            this.label39.TabIndex = 20;
-            this.label39.Text = "meters";
+            this.lb52.AutoSize = true;
+            this.lb52.Location = new System.Drawing.Point(228, 57);
+            this.lb52.Name = "lb52";
+            this.lb52.Size = new System.Drawing.Size(38, 13);
+            this.lb52.TabIndex = 20;
+            this.lb52.Text = "meters";
             // 
             // label40
             // 
@@ -1382,14 +1386,14 @@
             this.numThreeWidth.TabIndex = 18;
             this.numThreeWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label41
+            // lb51
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(228, 31);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(38, 13);
-            this.label41.TabIndex = 17;
-            this.label41.Text = "meters";
+            this.lb51.AutoSize = true;
+            this.lb51.Location = new System.Drawing.Point(228, 31);
+            this.lb51.Name = "lb51";
+            this.lb51.Size = new System.Drawing.Size(38, 13);
+            this.lb51.TabIndex = 17;
+            this.lb51.Text = "meters";
             // 
             // label42
             // 
@@ -1428,23 +1432,22 @@
             // 
             this.groupBox7.Controls.Add(this.comboCavity);
             this.groupBox7.Controls.Add(this.label57);
-            this.groupBox7.Controls.Add(this.label61);
+            this.groupBox7.Controls.Add(this.lb61);
             this.groupBox7.Controls.Add(this.label62);
             this.groupBox7.Controls.Add(this.numCavityLength);
-            this.groupBox7.Controls.Add(this.label59);
+            this.groupBox7.Controls.Add(this.lb65);
             this.groupBox7.Controls.Add(this.label60);
             this.groupBox7.Controls.Add(this.numCavityCCH);
-            this.groupBox7.Controls.Add(this.label51);
+            this.groupBox7.Controls.Add(this.lb64);
             this.groupBox7.Controls.Add(this.label52);
             this.groupBox7.Controls.Add(this.numCavityWPH);
             this.groupBox7.Controls.Add(this.label49);
-            this.groupBox7.Controls.Add(this.label50);
             this.groupBox7.Controls.Add(this.textCavityOutput);
             this.groupBox7.Controls.Add(this.buttonCavityCalculate);
-            this.groupBox7.Controls.Add(this.label53);
+            this.groupBox7.Controls.Add(this.lb63);
             this.groupBox7.Controls.Add(this.label54);
             this.groupBox7.Controls.Add(this.numCavityRH);
-            this.groupBox7.Controls.Add(this.label55);
+            this.groupBox7.Controls.Add(this.lb62);
             this.groupBox7.Controls.Add(this.label56);
             this.groupBox7.Controls.Add(this.numCavityWidth);
             this.groupBox7.Location = new System.Drawing.Point(9, 3);
@@ -1454,14 +1457,36 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Calculate for the Cavity Ratios";
             // 
-            // label61
+            // comboCavity
             // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(228, 57);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(38, 13);
-            this.label61.TabIndex = 47;
-            this.label61.Text = "meters";
+            this.comboCavity.FormattingEnabled = true;
+            this.comboCavity.Items.AddRange(new object[] {
+            "Cavity Ratio",
+            "Room Cavity Ratio",
+            "Ceiling Cavity Ratio",
+            "Floor Cavity Ratio"});
+            this.comboCavity.Location = new System.Drawing.Point(122, 28);
+            this.comboCavity.Name = "comboCavity";
+            this.comboCavity.Size = new System.Drawing.Size(150, 21);
+            this.comboCavity.TabIndex = 51;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(12, 31);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(109, 13);
+            this.label57.TabIndex = 50;
+            this.label57.Text = "Choose Cavity Ratio :";
+            // 
+            // lb61
+            // 
+            this.lb61.AutoSize = true;
+            this.lb61.Location = new System.Drawing.Point(228, 57);
+            this.lb61.Name = "lb61";
+            this.lb61.Size = new System.Drawing.Size(38, 13);
+            this.lb61.TabIndex = 47;
+            this.lb61.Text = "meters";
             // 
             // label62
             // 
@@ -1486,14 +1511,14 @@
             this.numCavityLength.TabIndex = 45;
             this.numCavityLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label59
+            // lb65
             // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(228, 161);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(38, 13);
-            this.label59.TabIndex = 43;
-            this.label59.Text = "meters";
+            this.lb65.AutoSize = true;
+            this.lb65.Location = new System.Drawing.Point(228, 161);
+            this.lb65.Name = "lb65";
+            this.lb65.Size = new System.Drawing.Size(38, 13);
+            this.lb65.TabIndex = 43;
+            this.lb65.Text = "meters";
             // 
             // label60
             // 
@@ -1518,14 +1543,14 @@
             this.numCavityCCH.TabIndex = 41;
             this.numCavityCCH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label51
+            // lb64
             // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(228, 135);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(38, 13);
-            this.label51.TabIndex = 40;
-            this.label51.Text = "meters";
+            this.lb64.AutoSize = true;
+            this.lb64.Location = new System.Drawing.Point(228, 135);
+            this.lb64.Name = "lb64";
+            this.lb64.Size = new System.Drawing.Size(38, 13);
+            this.lb64.TabIndex = 40;
+            this.lb64.Text = "meters";
             // 
             // label52
             // 
@@ -1561,15 +1586,6 @@
             this.label49.Text = "Cavity Ratio :";
             this.label49.Click += new System.EventHandler(this.label49_Click);
             // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(228, 277);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(29, 13);
-            this.label50.TabIndex = 36;
-            this.label50.Text = "units";
-            // 
             // textCavityOutput
             // 
             this.textCavityOutput.Location = new System.Drawing.Point(122, 274);
@@ -1588,14 +1604,14 @@
             this.buttonCavityCalculate.UseVisualStyleBackColor = true;
             this.buttonCavityCalculate.Click += new System.EventHandler(this.buttonCavityCalculate_Click);
             // 
-            // label53
+            // lb63
             // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(228, 109);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(38, 13);
-            this.label53.TabIndex = 23;
-            this.label53.Text = "meters";
+            this.lb63.AutoSize = true;
+            this.lb63.Location = new System.Drawing.Point(228, 109);
+            this.lb63.Name = "lb63";
+            this.lb63.Size = new System.Drawing.Size(38, 13);
+            this.lb63.TabIndex = 23;
+            this.lb63.Text = "meters";
             // 
             // label54
             // 
@@ -1620,14 +1636,14 @@
             this.numCavityRH.TabIndex = 21;
             this.numCavityRH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label55
+            // lb62
             // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(228, 83);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(38, 13);
-            this.label55.TabIndex = 20;
-            this.label55.Text = "meters";
+            this.lb62.AutoSize = true;
+            this.lb62.Location = new System.Drawing.Point(228, 83);
+            this.lb62.Name = "lb62";
+            this.lb62.Size = new System.Drawing.Size(38, 13);
+            this.lb62.TabIndex = 20;
+            this.lb62.Text = "meters";
             // 
             // label56
             // 
@@ -1662,28 +1678,14 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label57
+            // lb14
             // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(12, 31);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(109, 13);
-            this.label57.TabIndex = 50;
-            this.label57.Text = "Choose Cavity Ratio :";
-            // 
-            // comboCavity
-            // 
-            this.comboCavity.FormattingEnabled = true;
-            this.comboCavity.Items.AddRange(new object[] {
-            "Cavity Ratio",
-            "Room Cavity Ratio",
-            "Ceiling Cavity Ratio",
-            "Floor Cavity Ratio"});
-            this.comboCavity.Location = new System.Drawing.Point(122, 28);
-            this.comboCavity.Name = "comboCavity";
-            this.comboCavity.Size = new System.Drawing.Size(150, 21);
-            this.comboCavity.TabIndex = 51;
-            this.comboCavity.SelectedIndexChanged += new System.EventHandler(this.comboCavity_Click);
+            this.lb14.AutoSize = true;
+            this.lb14.Location = new System.Drawing.Point(228, 109);
+            this.lb14.Name = "lb14";
+            this.lb14.Size = new System.Drawing.Size(20, 13);
+            this.lb14.TabIndex = 36;
+            this.lb14.Text = "lux";
             // 
             // Form1
             // 
@@ -1770,13 +1772,13 @@
         private System.Windows.Forms.NumericUpDown numIllumMF;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.NumericUpDown numIllumCU;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lb23;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.NumericUpDown numIllumLumens;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label lb22;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.NumericUpDown numIllumWidth;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lb21;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.NumericUpDown numIllumLength;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -1785,13 +1787,13 @@
         private System.Windows.Forms.NumericUpDown numLuminanceTF;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numLuminanceLamps;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lb33;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown numLuminanceLumens;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lb32;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.NumericUpDown numLuminanceWidth;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lb31;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.NumericUpDown numLuminanceLength;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -1800,13 +1802,13 @@
         private System.Windows.Forms.NumericUpDown numLuminairesIllumination;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.NumericUpDown numLuminairesLamps;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lb13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.NumericUpDown numLuminairesLumens;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lb12;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.NumericUpDown numLuminairesWidth;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lb11;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.NumericUpDown numLuminairesLength;
         private System.Windows.Forms.Label label25;
@@ -1815,75 +1817,75 @@
         private System.Windows.Forms.NumericUpDown numLuminairesCU;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label lb44;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.NumericUpDown numTwoLumens;
         private System.Windows.Forms.Button buttonTwoCalculaate;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label lb43;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.NumericUpDown numTwoHeight;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label lb42;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.NumericUpDown numTwoWidth;
-        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label lb41;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.NumericUpDown numTwoLength;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lb54;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.NumericUpDown numThreeLumens;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label lb53;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.NumericUpDown numThreeHeight;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label lb52;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.NumericUpDown numThreeWidth;
-        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label lb51;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.NumericUpDown numThreeLength;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label textIllumOutputInitUnits;
+        private System.Windows.Forms.Label lb24;
         private System.Windows.Forms.TextBox textIllumOutputInit;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label textIllumOutputMaintainedUnits;
+        private System.Windows.Forms.Label lb25;
         private System.Windows.Forms.TextBox textIllumOutputMaintained;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label textLuminairesOutputUnits;
+        private System.Windows.Forms.Label lb15;
         private System.Windows.Forms.TextBox textLuminairesOutput;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label textLuminanceOutputUnits;
+        private System.Windows.Forms.Label lb34;
         private System.Windows.Forms.TextBox textLuminanceOutput;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label textTwoOutputUnits;
+        private System.Windows.Forms.Label lb45;
         private System.Windows.Forms.TextBox textTwoOutput;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label textThreeOutputUnits;
+        private System.Windows.Forms.Label lb55;
         private System.Windows.Forms.TextBox textThreeOutput;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label lb65;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.NumericUpDown numCavityCCH;
-        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label lb64;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.NumericUpDown numCavityWPH;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
         private System.Windows.Forms.TextBox textCavityOutput;
         private System.Windows.Forms.Button buttonCavityCalculate;
-        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label lb63;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.NumericUpDown numCavityRH;
-        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label lb62;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.NumericUpDown numCavityWidth;
-        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label lb61;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.NumericUpDown numCavityLength;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.ComboBox comboCavity;
+        private System.Windows.Forms.Label lb14;
     }
 }
 
