@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Illumination Design Calculator.exe" size="39936">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Illumination Design Calculator.exe" size="43008">
       <assemblyIdentity name="Illumination Design Calculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3ZkZeg6O21dxTYHuxJ6K4U9rLlz/gUUkujl9AL12Cns=</dsig:DigestValue>
+        <dsig:DigestValue>aTXAMG7e++7PVCegug/zd6zbZrQ32vTgsuCUuE2lDpc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

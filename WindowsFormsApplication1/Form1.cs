@@ -19,10 +19,12 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Please refer to Help for the Formulas.", "W E L C O M E");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        double _PI = Math.PI;
+
+        private void button1_Click(object sender, EventArgs e)  
         {
             System.Diagnostics.Process p = System.Diagnostics.Process.Start("calc.exe");
             p.WaitForInputIdle();
@@ -34,7 +36,7 @@ namespace WindowsFormsApplication1
             var length = numLuminairesLength.Value;
             var width = numLuminairesWidth.Value;
             var lumens = numLuminairesLumens.Value;
-            var lamps = numLuminanceLamps.Value;
+            var lamps = numLuminairesLamps.Value;
             var cu = numLuminairesCU.Value;
             var mf = numLuminairesMF.Value;
             var illumination = numLuminairesIllumination.Value;
@@ -104,8 +106,6 @@ namespace WindowsFormsApplication1
             textLuminanceOutput.Text = luminance.ToString("#.##");
 
         }
-
-        double _PI = Math.PI;
 
         private void computeTwo()
         {
@@ -184,6 +184,20 @@ namespace WindowsFormsApplication1
             var fch = wph;
             var rch = rh - fch;
             rch = rch - cch;
+
+            if (cch > h)
+            {
+                MessageBox.Show("The ceiling cavity height exceeds the room height. Please review the input then retry.", "Error");
+                h = 1;
+                cch = 1;
+            }
+
+            if (fch > h)
+            {
+                MessageBox.Show("The work plane height exceeds the room height. Please review the input then retry.", "Error");
+                h = 1;
+                fch = 1;
+            }
 
             if (comboCavity.SelectedIndex == 0)
             {
@@ -315,10 +329,78 @@ namespace WindowsFormsApplication1
         }
 
 
+        private void numLuminairesLength_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
       
 
 
         #endregion
+
+        decimal mft = 3.28084M;
+        decimal ftm = 0.3048M;
+        decimal luxfc = 0.0929030436M;
+        decimal fclux = 10.7639M;
+        decimal millifoot = 0.9290303997M;
+        decimal footmilli = 1.076391042M;
+           
+        private void rdbEnglish_Click(object sender, EventArgs e)
+        {
+            lb11.Text = "feet";
+            lb12.Text = "feet";
+            lb14.Text = "feet";
+            lb21.Text = "feet";
+            lb22.Text = "feet";
+            lb24.Text = "fc";
+            lb25.Text = "fc";
+            lb31.Text = "feet";
+            lb32.Text = "feet";
+            lb34.Text = "ftLambert";
+            lb41.Text = "feet";
+            lb42.Text = "feet";
+            lb43.Text = "feet";
+            lb45.Text = "fc";
+            lb51.Text = "feet";
+            lb52.Text = "feet";
+            lb53.Text = "feet";
+            lb55.Text = "feet";
+            lb61.Text = "feet";
+            lb62.Text = "feet";
+            lb63.Text = "feet";
+            lb64.Text = "feet";
+            lb65.Text = "feet";
+
+            numLuminairesLength.Value = (decimal)numLuminairesLength.Value * mft;
+            numLuminairesWidth.Value = (decimal)numLuminairesWidth.Value * mft;
+            numLuminairesIllumination.Value = (decimal)numLuminairesIllumination.Value * luxfc;
+            textLuminairesOutput.Text = String.Empty;
+            numIllumLength.Value = (decimal)numIllumLength.Value * mft;
+            numIllumWidth.Value = (decimal)numIllumWidth.Value * mft;
+            textIllumOutputInit.Text = String.Empty;
+            textIllumOutputMaintained.Text = String.Empty;
+            numLuminanceLength.Value = (decimal)numLuminanceLength.Value * mft;
+            numLuminanceWidth.Value = (decimal)numLuminanceWidth.Value * mft;
+            textLuminanceOutput.Text = String.Empty;
+            numTwoLength.Value = (decimal)numTwoLength.Value * mft;
+            numTwoWidth.Value = (decimal)numTwoWidth.Value * mft;
+            numTwoHeight.Value = (decimal)numTwoHeight.Value * mft;
+            textThreeOutput.Text = String.Empty;
+            numThreeLength.Value = (decimal)numThreeLength.Value * mft;
+            numThreeWidth.Value = (decimal)numThreeWidth.Value * mft;
+            numThreeHeight.Value = (decimal)numThreeHeight.Value * mft;
+            textThreeOutput.Text = String.Empty;
+            numCavityLength.Value = (decimal)numCavityLength.Value * mft;
+            numCavityWidth.Value = (decimal)numCavityWidth.Value * mft;
+            numCavityRH.Value = (decimal)numCavityRH.Value * mft;
+            numCavityWPH.Value = (decimal)numCavityWPH.Value * mft;
+            numCavityCCH.Value = (decimal)numCavityCCH.Value * mft;
+            textCavityOutput.Text = String.Empty;
+
+            MessageBox.Show("Unit system has been set to English. Press 'Calculate' to recalculate the Output.", "Unit System Changed");
+
+        }
 
         private void rdbMetric_Click(object sender, EventArgs e)
         {
@@ -346,34 +428,35 @@ namespace WindowsFormsApplication1
             lb64.Text = "meters";
             lb65.Text = "meters";
 
-        }
+            numLuminairesLength.Value = (decimal)numLuminairesLength.Value * ftm;
+            numLuminairesWidth.Value = (decimal)numLuminairesWidth.Value * ftm;
+            numLuminairesIllumination.Value = (decimal)numLuminairesIllumination.Value * fclux;
+            textLuminairesOutput.Text = String.Empty;
+            numIllumLength.Value = (decimal)numIllumLength.Value * ftm;
+            numIllumWidth.Value = (decimal)numIllumWidth.Value * ftm;
+            textIllumOutputInit.Text = String.Empty;
+            textIllumOutputMaintained.Text = String.Empty;
+            numLuminanceLength.Value = (decimal)numLuminanceLength.Value * ftm;
+            numLuminanceWidth.Value = (decimal)numLuminanceWidth.Value * ftm;
+            textLuminanceOutput.Text = String.Empty;
+            numTwoLength.Value = (decimal)numTwoLength.Value * ftm;
+            numTwoWidth.Value = (decimal)numTwoWidth.Value * ftm;
+            numTwoHeight.Value = (decimal)numTwoHeight.Value * ftm;
+            textTwoOutput.Text = String.Empty;
+            numThreeLength.Value = (decimal)numThreeLength.Value * ftm;
+            numThreeWidth.Value = (decimal)numThreeWidth.Value * ftm;
+            numThreeHeight.Value = (decimal)numThreeHeight.Value * ftm;
+            textThreeOutput.Text = String.Empty;
+            numCavityLength.Value = (decimal)numCavityLength.Value * ftm;
+            numCavityWidth.Value = (decimal)numCavityWidth.Value * ftm;
+            numCavityRH.Value = (decimal)numCavityRH.Value * ftm;
+            numCavityWPH.Value = (decimal)numCavityWPH.Value * ftm;
+            numCavityCCH.Value = (decimal)numCavityCCH.Value * ftm;
+            textCavityOutput.Text = String.Empty;
 
-        private void rdbEnglish_Click(object sender, EventArgs e)
-        {
-            lb11.Text = "feet";
-            lb12.Text = "feet";
-            lb14.Text = "feet";
-            lb21.Text = "feet";
-            lb22.Text = "feet";
-            lb24.Text = "fc";
-            lb25.Text = "fc";
-            lb31.Text = "feet";
-            lb32.Text = "feet";
-            lb34.Text = "ftLambert";
-            lb41.Text = "feet";
-            lb42.Text = "feet";
-            lb43.Text = "feet";
-            lb45.Text = "fc";
-            lb51.Text = "feet";
-            lb52.Text = "feet";
-            lb53.Text = "feet";
-            lb55.Text = "feet";
-            lb61.Text = "feet";
-            lb62.Text = "feet";
-            lb63.Text = "feet";
-            lb64.Text = "feet";
-            lb65.Text = "feet";
-        }
+            MessageBox.Show("Unit system has been set to Metric. Press 'Calculate' to recalculate the Output.", "Unit System Changed");
 
+        }
+        
     }
 }

@@ -34,6 +34,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lb14 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.lb15 = new System.Windows.Forms.Label();
             this.textLuminairesOutput = new System.Windows.Forms.TextBox();
@@ -155,7 +156,6 @@
             this.label56 = new System.Windows.Forms.Label();
             this.numCavityWidth = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
-            this.lb14 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -235,7 +235,6 @@
             this.rdbEnglish.TabIndex = 0;
             this.rdbEnglish.Text = "English";
             this.rdbEnglish.UseVisualStyleBackColor = true;
-            this.rdbEnglish.CheckedChanged += new System.EventHandler(this.rdbEnglish_CheckedChanged);
             this.rdbEnglish.Click += new System.EventHandler(this.rdbEnglish_Click);
             // 
             // tabControl1
@@ -293,6 +292,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Calculate for the Number of Luminaires";
             // 
+            // lb14
+            // 
+            this.lb14.AutoSize = true;
+            this.lb14.Location = new System.Drawing.Point(228, 140);
+            this.lb14.Name = "lb14";
+            this.lb14.Size = new System.Drawing.Size(20, 13);
+            this.lb14.TabIndex = 36;
+            this.lb14.Text = "lux";
+            // 
             // label45
             // 
             this.label45.AutoSize = true;
@@ -315,6 +323,7 @@
             // 
             this.textLuminairesOutput.Location = new System.Drawing.Point(122, 274);
             this.textLuminairesOutput.Name = "textLuminairesOutput";
+            this.textLuminairesOutput.ReadOnly = true;
             this.textLuminairesOutput.Size = new System.Drawing.Size(100, 20);
             this.textLuminairesOutput.TabIndex = 33;
             this.textLuminairesOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -526,6 +535,7 @@
             this.numLuminairesLength.Size = new System.Drawing.Size(100, 20);
             this.numLuminairesLength.TabIndex = 15;
             this.numLuminairesLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numLuminairesLength.ValueChanged += new System.EventHandler(this.numLuminairesLength_ValueChanged);
             // 
             // tabPage2
             // 
@@ -590,6 +600,7 @@
             // 
             this.textIllumOutputMaintained.Location = new System.Drawing.Point(122, 300);
             this.textIllumOutputMaintained.Name = "textIllumOutputMaintained";
+            this.textIllumOutputMaintained.ReadOnly = true;
             this.textIllumOutputMaintained.Size = new System.Drawing.Size(100, 20);
             this.textIllumOutputMaintained.TabIndex = 32;
             this.textIllumOutputMaintained.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -617,6 +628,7 @@
             // 
             this.textIllumOutputInit.Location = new System.Drawing.Point(122, 274);
             this.textIllumOutputInit.Name = "textIllumOutputInit";
+            this.textIllumOutputInit.ReadOnly = true;
             this.textIllumOutputInit.Size = new System.Drawing.Size(100, 20);
             this.textIllumOutputInit.TabIndex = 29;
             this.textIllumOutputInit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -848,6 +860,7 @@
             this.textLuminanceOutput.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
             this.textLuminanceOutput.Location = new System.Drawing.Point(122, 274);
             this.textLuminanceOutput.Name = "textLuminanceOutput";
+            this.textLuminanceOutput.ReadOnly = true;
             this.textLuminanceOutput.Size = new System.Drawing.Size(100, 20);
             this.textLuminanceOutput.TabIndex = 32;
             this.textLuminanceOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1067,6 +1080,7 @@
             // 
             this.textTwoOutput.Location = new System.Drawing.Point(122, 274);
             this.textTwoOutput.Name = "textTwoOutput";
+            this.textTwoOutput.ReadOnly = true;
             this.textTwoOutput.Size = new System.Drawing.Size(100, 20);
             this.textTwoOutput.TabIndex = 32;
             this.textTwoOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1271,6 +1285,7 @@
             // 
             this.textThreeOutput.Location = new System.Drawing.Point(122, 274);
             this.textThreeOutput.Name = "textThreeOutput";
+            this.textThreeOutput.ReadOnly = true;
             this.textThreeOutput.Size = new System.Drawing.Size(100, 20);
             this.textThreeOutput.TabIndex = 35;
             this.textThreeOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1590,6 +1605,7 @@
             // 
             this.textCavityOutput.Location = new System.Drawing.Point(122, 274);
             this.textCavityOutput.Name = "textCavityOutput";
+            this.textCavityOutput.ReadOnly = true;
             this.textCavityOutput.Size = new System.Drawing.Size(100, 20);
             this.textCavityOutput.TabIndex = 35;
             this.textCavityOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1678,15 +1694,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // lb14
-            // 
-            this.lb14.AutoSize = true;
-            this.lb14.Location = new System.Drawing.Point(228, 109);
-            this.lb14.Name = "lb14";
-            this.lb14.Size = new System.Drawing.Size(20, 13);
-            this.lb14.TabIndex = 36;
-            this.lb14.Text = "lux";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1699,6 +1706,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Illumination Design Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
